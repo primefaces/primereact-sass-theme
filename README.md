@@ -1,2 +1,3 @@
-# primereact-sass-theme
-PrimeReact Theming with SASS
+# PrimeReact Theming with SASS
+
+Visit the [official documentation](https://primereact.org/theming/#customtheme) for more information.
