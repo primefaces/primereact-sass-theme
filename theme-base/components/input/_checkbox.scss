@@ -17,6 +17,11 @@
             font-size: $checkboxIconFontSize;
         }
 
+        .p-icon {
+            width: $checkboxIconFontSize;
+            height: $checkboxIconFontSize;
+        }
+
         &.p-highlight {
             border-color: $checkboxActiveBorderColor;
             background: $checkboxActiveBg;
