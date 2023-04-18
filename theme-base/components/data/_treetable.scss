@@ -157,6 +157,11 @@
 
     .p-treetable-loading-icon {
         font-size: $loadingIconFontSize;
+
+        &.p-icon {
+            width: $loadingIconFontSize;
+            height: $loadingIconFontSize;
+        }
     }
 
     &.p-treetable-gridlines {
