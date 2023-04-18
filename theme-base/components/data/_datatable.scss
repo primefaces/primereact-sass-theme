@@ -201,6 +201,10 @@
 
     .p-datatable-loading-icon {
         font-size: $loadingIconFontSize;
+        &.p-icon {
+            width: $loadingIconFontSize;
+            height: $loadingIconFontSize;
+        }
     }
 
     &.p-datatable-gridlines {
