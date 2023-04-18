@@ -10,11 +10,11 @@
 
         .p-galleria-close-icon {
             font-size: $galleriaCloseIconFontSize;
-        }
 
-        .p-icon {
-            width: $galleriaCloseIconFontSize;
-            height: $galleriaCloseIconFontSize;
+            &.p-icon {
+                width: $galleriaCloseIconFontSize;
+                height: $galleriaCloseIconFontSize;
+             }
         }
 
         &:hover {
@@ -35,11 +35,11 @@
         .p-galleria-item-prev-icon,
         .p-galleria-item-next-icon {
             font-size: $galleriaItemNavigatorFontSize;
-        }
 
-        .p-icon {
-            width: $galleriaCloseIconFontSize;
-            height: $galleriaCloseIconFontSize;
+            &.p-icon {
+                width: $galleriaCloseIconFontSize;
+                height: $galleriaCloseIconFontSize;
+            }
         }
 
         &:not(.p-disabled) {

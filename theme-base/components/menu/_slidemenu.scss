@@ -46,6 +46,11 @@
 
     .p-slidemenu-icon {
         font-size: $menuitemSubmenuIconFontSize;
+
+        &.p-icon {
+            width: $menuitemSubmenuIconFontSize;
+            height: $menuitemSubmenuIconFontSize;
+        }
     }
 
     .p-slidemenu-backward {

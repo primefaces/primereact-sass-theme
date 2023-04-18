@@ -8,7 +8,12 @@
             color: $ratingStarIconOffColor;
             transition: $formElementTransition;   
             font-size: $ratingIconFontSize;
-    
+            
+            &.p-icon {
+                width: $ratingIconFontSize;
+                height: $ratingIconFontSize;   
+            }
+
             &.p-rating-cancel {
                 color: $ratingCancelIconColor;
             }

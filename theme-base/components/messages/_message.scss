@@ -91,7 +91,7 @@
         font-size: $messageIconFontSize;
         margin-right: $inlineSpacing;
 
-        .p-icon {
+        &.p-icon {
             width: $messageIconFontSize;
             height: $messageIconFontSize;
           }

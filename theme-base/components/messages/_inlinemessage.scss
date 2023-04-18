@@ -50,6 +50,11 @@
     .p-inline-message-icon {
         font-size: $inlineMessageIconFontSize;
         margin-right: $inlineSpacing;
+
+        &.p-icon {
+            width: $inlineMessageIconFontSize;
+            height: $inlineMessageIconFontSize;
+        }
     }
 
     .p-inline-message-text {

@@ -43,5 +43,10 @@
     .p-submenu-icon {
         font-size: $menuitemSubmenuIconFontSize;
         transition: transform $transitionDuration;
+
+        &.p-icon {
+            width: $menuitemSubmenuIconFontSize;
+            height: $menuitemSubmenuIconFontSize;
+        }
     }
 }
