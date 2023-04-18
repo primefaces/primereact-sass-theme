@@ -47,10 +47,10 @@
 
     .p-dataview-loading-icon {
         font-size: $loadingIconFontSize;
-    }
 
-    .p-icon {
-        width: $loadingIconFontSize;
-        height: $loadingIconFontSize;
+        &.p-icon {
+            width: $loadingIconFontSize;
+            height: $loadingIconFontSize;
+        }
     }
 }
