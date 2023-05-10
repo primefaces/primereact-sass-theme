@@ -52,6 +52,13 @@
         }
     }
 
+    &.p-dialog-maximized {
+        .p-dialog-header, .p-dialog-content:last-of-type {
+            border-radius: 0;
+        }
+    }
+    
+
     &.p-confirm-dialog {
         .p-confirm-dialog-icon {
             font-size: $primeIconFontSize * 2;
