@@ -587,19 +587,19 @@ $toastDetailMargin:$inlineSpacing 0 0 0 !default;
 
 //severities
 $infoMessageBg:#EFF6FF !default;
-$infoMessageBorder:none !default;
+$infoMessageBorder:solid #2563EB !default;
 $infoMessageTextColor:#2563EB !default;
 $infoMessageIconColor:#2563EB !default;
 $successMessageBg:#ECFDF5 !default;
-$successMessageBorder:none !default;
+$successMessageBorder:solid #059669; !default;
 $successMessageTextColor:#059669 !default;
 $successMessageIconColor:#059669 !default;
 $warningMessageBg:#FEF3C7 !default;
-$warningMessageBorder:none !default;
+$warningMessageBorder:solid #D97706 !default;
 $warningMessageTextColor:#D97706 !default;
 $warningMessageIconColor:#D97706 !default;
 $errorMessageBg:#FEF3C7 !default;
-$errorMessageBorder:none !default;
+$errorMessageBorder:solid #DC2626 !default;
 $errorMessageTextColor:#DC2626 !default;
 $errorMessageIconColor:#DC2626 !default;
 
