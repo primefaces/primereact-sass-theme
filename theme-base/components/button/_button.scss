@@ -195,6 +195,14 @@
 
         .p-button-loading-icon {
             margin: 0;
+
+            &.p-button-icon-left {
+                margin-right: $inlineSpacing;
+            }
+
+            &.p-button-icon-right {
+                margin-left: $inlineSpacing;
+            }
         }
     }
 }
