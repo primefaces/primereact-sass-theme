@@ -1,5 +1,13 @@
 # Changelog
 
+## [9.4.0](https://github.com/primefaces/primereact-sass-theme/tree/9.4.0) (2023-05-12)
+
+[Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/9.3.1...9.4.0)
+
+**Fixed bugs:**
+
+- Enhancement: Dialog Component Styling Update [\#4](https://github.com/primefaces/primereact-sass-theme/issues/4)
+
 ## [9.3.1](https://github.com/primefaces/primereact-sass-theme/tree/9.3.1) (2023-05-03)
 
 - No changes, provides semantic versioning compatibility for PrimeReact 9.3.1
