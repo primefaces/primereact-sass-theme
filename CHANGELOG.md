@@ -1,5 +1,17 @@
 # Changelog
 
+## [9.5.0](https://github.com/primefaces/primereact-sass-theme/tree/9.5.0) (2023-05-24)
+
+[Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/9.4.0...9.5.0)
+
+**Implemented New Features and Enhancements:**
+
+- Messages: Inconsistency [\#16](https://github.com/primefaces/primereact-sass-theme/issues/16)
+
+**Fixed bugs:**
+
+- BreadCrumb: SVG location of the DOM [\#15](https://github.com/primefaces/primereact-sass-theme/issues/15)
+
 ## [9.4.0](https://github.com/primefaces/primereact-sass-theme/tree/9.4.0) (2023-05-12)
 
 [Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/9.3.1...9.4.0)
