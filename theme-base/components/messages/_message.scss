@@ -94,6 +94,14 @@
         &.p-icon {
             width: $messageIconFontSize;
             height: $messageIconFontSize;
-          }
+        }
+    }
+
+    .p-message-summary {
+        font-weight: 700;
+    }
+
+    .p-message-detail {
+        margin-left: $inlineSpacing;
     }
 }
