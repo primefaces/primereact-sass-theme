@@ -4,7 +4,7 @@
 
 [Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/9.4.0...9.5.0)
 
-**Implemented New Features and Enhancements:**
+**Implemented Enhancements:**
 
 - Messages: Inconsistency [\#16](https://github.com/primefaces/primereact-sass-theme/issues/16)
 
