@@ -1,4 +1,11 @@
 # Changelog
+## [9.6.0](https://github.com/primefaces/primereact-sass-theme/tree/9.6.0)
+
+[Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/9.5.0...9.6.0)
+
+**Fixed bugs:**
+
+- SplitButton: menu icon not visible in large size [\#18](https://github.com/primefaces/primereact-sass-theme/issues/18)
 
 ## [9.5.0](https://github.com/primefaces/primereact-sass-theme/tree/9.5.0) (2023-05-24)
 
