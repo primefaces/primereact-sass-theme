@@ -41,3 +41,24 @@
         @include invalid-input();
     }
 }
+
+.p-chips-icon-left > i:first-of-type, 
+.p-chips-icon-left > svg:first-of-type {
+    left: nth($inputPadding, 2);
+    color: $inputIconColor;
+}
+
+.p-chips-icon-right > i:last-of-type, 
+.p-chips-icon-right > svg:last-of-type {
+    right: nth($inputPadding, 2);
+    color: $inputIconColor;
+}
+
+.p-chips-icon-left > .p-chips > .p-inputtext,
+.p-chips-icon-left > label {
+    padding-left: nth($inputPadding, 2) * 2 + $primeIconFontSize;
+}
+
+.p-chips-icon-right > .p-chips > .p-inputtext{
+    padding-right: nth($inputPadding, 2) * 2 + $primeIconFontSize;
+}
