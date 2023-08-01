@@ -1,7 +1,11 @@
 # Changelog
-## [9.6.0](https://github.com/primefaces/primereact-sass-theme/tree/9.6.0)
+## [9.6.1](https://github.com/primefaces/primereact-sass-theme/tree/9.6.1) (2023-08-01)
 
-[Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/9.5.0...9.6.0)
+[Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/9.6.0...9.6.1)
+
+## [9.6.0](https://github.com/primefaces/primereact-sass-theme/tree/9.6.0)  (2023-06-27)
+
+[Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/9.5.0...9.6.0) 
 
 **Fixed bugs:**
 
