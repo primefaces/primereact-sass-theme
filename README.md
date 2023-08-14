@@ -4,7 +4,7 @@
 
 Visit the [official documentation](https://primereact.org/theming/#customtheme) for more information.
 
-<img height="48" src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" height="100" alt="SASS Logo" />
 
 ## Usage
 
