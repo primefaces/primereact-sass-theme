@@ -13,8 +13,6 @@
         &.p-autocomplete-multiple {
             .p-autocomplete-multiple-container {
                 @include filled-input-wrapper();
-                
-                gap: $inlineSpacing;
             }
         }
     }
