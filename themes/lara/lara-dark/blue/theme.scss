@@ -8,5 +8,6 @@ $highlightBg:rgba(147, 197, 253, .16) !default;
 $highlightTextColor: rgba(255,255,255,.87) !default;
 
 @import '../_variables';
+@import './_fonts';
 @import '../../../../theme-base/_components';
 @import '../_extensions';
