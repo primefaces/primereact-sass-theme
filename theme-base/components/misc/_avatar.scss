@@ -23,6 +23,10 @@
     }
 }
 
+.p-avatar-circle {
+    border-radius: 50%;
+  }
+
 .p-avatar-group {
     .p-avatar {
         border: 2px solid $panelContentBg;

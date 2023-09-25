@@ -13,7 +13,8 @@
     
     .p-autocomplete-multiple-container {
         padding: math.div(nth($inputPadding, 1), 2) nth($inputPadding, 2);
-
+        gap: $inlineSpacing;
+        
         &:not(.p-disabled):hover {
             border-color: $inputHoverBorderColor;
         }
@@ -26,8 +27,9 @@
             padding: math.div(nth($inputPadding, 1), 2) 0;
             
             input {
-                font-family: $fontFamily;
-                font-size: $fontSize;
+                font-family: inherit;
+                font-feature-settings: inherit;
+                font-size: inherit;
                 color: $textColor;
                 padding: 0;
                 margin: 0;

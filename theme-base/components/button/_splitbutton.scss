@@ -118,6 +118,13 @@
             }
         }
     }
+    
+    .p-splitbutton-menubutton,
+    .p-splitbutton.p-button-rounded > .p-splitbutton-menubutton.p-button,
+    .p-splitbutton.p-button-outlined > .p-splitbutton-menubutton.p-button {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
 }
 
 .p-splitbutton.p-button-secondary {    

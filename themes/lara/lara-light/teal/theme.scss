@@ -8,5 +8,6 @@ $highlightBg: #F0FDFA !default;
 $highlightTextColor: $primaryDarkerColor !default;
 
 @import '../_variables';
+@import './_fonts';
 @import '../../../../theme-base/_components';
 @import '../_extensions';

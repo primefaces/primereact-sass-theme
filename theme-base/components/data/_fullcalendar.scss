@@ -226,6 +226,8 @@
                 font-size: $fontSize;
                 transition: $formElementTransition;
                 border-radius: $borderRadius;
+                line-height: 1;
+                min-height: 2.07rem;
     
                 &:enabled:hover {
                     background: $buttonHoverBg;
@@ -316,6 +318,9 @@
                         border-top-right-radius: $borderRadius;
                         border-bottom-right-radius: $borderRadius;
                     }
+                }
+                .fc-icon {
+                    vertical-align: unset;
                 }
             }
         }

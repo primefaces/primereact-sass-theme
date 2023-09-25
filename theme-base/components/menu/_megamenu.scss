@@ -9,6 +9,10 @@
         > .p-menuitem {
             > .p-menuitem-link {
                 @include horizontal-rootmenuitem-link();
+
+               > .p-submenu-icon {
+                    margin-left: auto;
+                }
             }
 
             &.p-menuitem-active {
