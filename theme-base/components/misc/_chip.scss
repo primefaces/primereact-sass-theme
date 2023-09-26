@@ -28,7 +28,7 @@
         transition: $actionIconTransition;
         margin-left: $inlineSpacing;
         
-        &:focus {
+        &:focus-visible {
             @include focused();
         }
     }

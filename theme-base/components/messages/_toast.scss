@@ -18,8 +18,8 @@
                 font-size: $toastIconFontSize;
                 
                 &.p-icon {
-                   width: $toastIconFontSize;
-                   height: $toastIconFontSize;
+                    width: $toastIconFontSize;
+                    height: $toastIconFontSize;
                 }
             }
 
@@ -44,7 +44,7 @@
                 background: rgba(255,255,255,.3);
             }
 
-            &:focus {
+            &:focus-visible {
                 @include focused();
             }
         }
