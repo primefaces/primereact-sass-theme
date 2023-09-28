@@ -30,8 +30,6 @@
         background: $overlayContentBg;
         color: $panelContentTextColor;
         padding: $dialogContentPadding;
-        border-top-left-radius: $borderRadius;
-        border-top-right-radius: $borderRadius;
 
         &:last-of-type {
             border-bottom-right-radius: $borderRadius;
