@@ -1,4 +1,13 @@
 # Changelog
+## [10.0.3](https://github.com/primefaces/primereact-sass-theme/tree/HEAD) (2023-10-11)
+
+[Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/10.0.2...10.0.3)
+
+**Fixed bugs:**
+
+- Editor layer defect [\#39](https://github.com/primefaces/primereact-sass-theme/issues/39)
+- Remove FullCalendar theme support [\#38](https://github.com/primefaces/primereact-sass-theme/issues/38)
+- Fixed lara blue state colors [\#37](https://github.com/primefaces/primereact-sass-theme/issues/37)
 
 ## [10.0.2](https://github.com/primefaces/primereact-sass-theme/tree/10.0.2) (2023-09-29)
 
