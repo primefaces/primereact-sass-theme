@@ -1,4 +1,12 @@
 # Changelog
+## [10.0.4](https://github.com/primefaces/primereact-sass-theme/tree/HEAD) (2023-10-19)
+
+[Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/10.0.3...10.0.4)
+
+**Fixed bugs:**
+
+- TreeSelect: showClear attribute [\#32](https://github.com/primefaces/primereact-sass-theme/pull/32)
+
 ## [10.0.3](https://github.com/primefaces/primereact-sass-theme/tree/HEAD) (2023-10-11)
 
 [Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/10.0.2...10.0.3)
