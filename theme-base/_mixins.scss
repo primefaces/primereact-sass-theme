@@ -181,15 +181,6 @@
     background: $actionIconHoverBg;
 }
 
-@mixin button-states {
-    // <button> and <a> tags support :enabled selector.
-
-    &:enabled,
-    &:not(button):not(a):not(.p-disabled) {
-        @content;
-    }
-}
-
 @function tint($color, $percentage) {
     @return mix(#fff, $color, $percentage);
 }
