@@ -21,12 +21,6 @@
         color: $panelContentTextColor;
         border-bottom-right-radius: $borderRadius;
         border-bottom-left-radius: $borderRadius;
-
-        &.p-fileupload-highlight {
-            border-color: $highlightBg;
-            border-style: dashed;
-            background-color: $highlightBg;
-        }
     }
 
     .p-progressbar {
