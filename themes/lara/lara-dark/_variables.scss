@@ -172,15 +172,15 @@ $successButtonTextActiveColor:$successButtonTextColor !default;
 $successButtonActiveBorderColor:#bbf7d0 !default;
 $successButtonFocusShadow:0 0 0 1px scale-color($successButtonBg, $lightness: 30%) !default;
 
-$warningButtonBg:#facc15 !default;
-$warningButtonTextColor:#422006 !default;
-$warningButtonBorder:1px solid #facc15 !default;
-$warningButtonHoverBg:#fde047 !default;
+$warningButtonBg:#fb923c !default;
+$warningButtonTextColor:#431407 !default;
+$warningButtonBorder:1px solid #fb923c !default;
+$warningButtonHoverBg:#fdba74 !default;
 $warningButtonTextHoverColor:$warningButtonTextColor !default;
-$warningButtonHoverBorderColor:#fde047 !default;
-$warningButtonActiveBg:#fef08a !default;
+$warningButtonHoverBorderColor:#fdba74 !default;
+$warningButtonActiveBg:#fed7aa !default;
 $warningButtonTextActiveColor:$warningButtonTextColor !default;
-$warningButtonActiveBorderColor:#fef08a !default;
+$warningButtonActiveBorderColor:#fed7aa !default;
 $warningButtonFocusShadow:0 0 0 1px scale-color($warningButtonBg, $lightness: 30%) !default;
 
 $helpButtonBg:#c084fc !default;
