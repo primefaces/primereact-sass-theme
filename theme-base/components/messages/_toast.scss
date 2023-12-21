@@ -7,8 +7,7 @@
         border-radius: $borderRadius;
 
         .p-toast-message-content {
-            padding: $toastPadding;
-            border-width: $toastBorderWidth;
+            padding: 1rem;
 
             .p-toast-message-text {
                 margin: $toastMessageTextMargin;
