@@ -1,10 +1,11 @@
-$primaryColor: #FFC107 !default;
+$primaryColor: #ffc107 !default;
 $primaryLightColor: scale-color($primaryColor, $lightness: 60%) !default;
 $primaryDarkColor: scale-color($primaryColor, $lightness: -10%) !default;
 $primaryDarkerColor: scale-color($primaryColor, $lightness: -20%) !default;
 $primaryTextColor: #212529 !default;
 
-$highlightBg: #FFF3E0 !default;
+$highlightBg: #fff3e0 !default;
 $highlightTextColor: #495057 !default;
+$highlightFocusBg: rgba($primaryColor, 0.24) !default;
 
-@import '../_variables';
+@import "../_variables";

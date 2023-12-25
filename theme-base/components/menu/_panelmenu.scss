@@ -1,136 +1,153 @@
 .p-panelmenu {
-    .p-panelmenu-header {
-        > a {
-            padding: $accordionHeaderPadding;
-            border: $accordionHeaderBorder;
-            color: $accordionHeaderTextColor;
-            background: $accordionHeaderBg;
-            font-weight: $accordionHeaderFontWeight;
-            border-radius: $borderRadius;
-            transition: $listItemTransition;
+	.p-panelmenu-header {
+		outline: 0 none;
 
-            .p-panelmenu-icon {
-                margin-right: $inlineSpacing;
-            }
+		.p-panelmenu-header-content {
+			border: $accordionHeaderBorder;
+			color: $accordionHeaderTextColor;
+			background: $accordionHeaderBg;
+			border-radius: $borderRadius;
+			transition: $listItemTransition;
 
-            .p-menuitem-icon {
-                margin-right: $inlineSpacing;
-            }
+			.p-panelmenu-header-link {
+				color: $accordionHeaderTextColor;
+				padding: $accordionHeaderPadding;
+				font-weight: $accordionHeaderFontWeight;
 
-            &:focus-visible {
-                @include focused();
-            }
-        }
+				.p-submenu-icon {
+					margin-right: $inlineSpacing;
+				}
 
-        &:not(.p-highlight):not(.p-disabled) {
-            > a:hover {
-                background: $accordionHeaderHoverBg;
-                border-color: $accordionHeaderHoverBorderColor;
-                color: $accordionHeaderTextHoverColor;
-            }
-        }
+				.p-menuitem-icon {
+					margin-right: $inlineSpacing;
+				}
+			}
+		}
 
-        &.p-highlight {
-            margin-bottom: 0;
+		&:not(.p-disabled) {
+			&:focus-visible {
+				.p-panelmenu-header-content {
+					@include focused-inset();
+				}
+			}
+		}
 
-            > a {
-                background: $accordionHeaderActiveBg;
-                border-color: $accordionHeaderActiveBorderColor;
-                color: $accordionHeaderTextActiveColor;
-                border-bottom-right-radius: 0;
-                border-bottom-left-radius: 0;
-            }
+		&:not(.p-highlight):not(.p-disabled):hover {
+			.p-panelmenu-header-content {
+				background: $accordionHeaderHoverBg;
+				border-color: $accordionHeaderHoverBorderColor;
+				color: $accordionHeaderTextHoverColor;
+			}
+		}
 
-            &:not(.p-disabled) {
-                > a {
-                    &:hover {
-                        border-color: $accordionHeaderActiveHoverBorderColor;
-                        background: $accordionHeaderActiveHoverBg;
-                        color: $accordionHeaderTextActiveHoverColor;
-                    }
-                }
-            }
-        }
-    }
+		&:not(.p-disabled).p-highlight {
+			.p-panelmenu-header-content {
+				background: $accordionHeaderActiveBg;
+				border-color: $accordionHeaderActiveBorderColor;
+				color: $accordionHeaderTextActiveColor;
+				border-bottom-right-radius: 0;
+				border-bottom-left-radius: 0;
+				margin-bottom: 0;
+			}
 
-    .p-panelmenu-content {
-        padding: $verticalMenuPadding;
-        border: $accordionContentBorder;
-        background: $accordionContentBg;
-        color: $accordionContentTextColor;
-        border-top: 0;
-        border-top-right-radius: 0;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: $borderRadius;
-        border-bottom-left-radius: $borderRadius;
+			&:hover {
+				.p-panelmenu-header-content {
+					border-color: $accordionHeaderActiveHoverBorderColor;
+					background: $accordionHeaderActiveHoverBg;
+					color: $accordionHeaderTextActiveHoverColor;
+				}
+			}
+		}
+	}
 
-        .p-menuitem {
-            .p-menuitem-link {
-                @include menuitem-link();
+	.p-panelmenu-content {
+		padding: $verticalMenuPadding;
+		border: $accordionContentBorder;
+		background: $accordionContentBg;
+		color: $accordionContentTextColor;
+		border-top: 0;
+		border-top-right-radius: 0;
+		border-top-left-radius: 0;
+		border-bottom-right-radius: $borderRadius;
+		border-bottom-left-radius: $borderRadius;
 
-                .p-panelmenu-icon {
-                    margin-right: $inlineSpacing;
-                }
-            }
-        }
+		.p-panelmenu-root-list {
+			outline: 0 none;
+		}
 
-        .p-submenu-list:not(.p-panelmenu-root-submenu) {
-            padding: $treeNodeChildrenPadding;
-        }
-    }
+		.p-menuitem {
+			@include menuitem-link();
 
-    .p-panelmenu-panel {
-        margin-bottom: $accordionSpacing;
+			.p-menuitem-content {
+				.p-menuitem-link {
+					.p-submenu-icon {
+						margin-right: $inlineSpacing;
+					}
+				}
+			}
+		}
 
-        @if $accordionSpacing == 0 {
-            .p-panelmenu-header {
-                > a {
-                    border-radius: 0;
-                }
-            }
+		.p-menuitem-separator {
+			border-top: $divider;
+			margin: $menuSeparatorMargin;
+		}
 
-            .p-panelmenu-content {
-                border-radius: 0;
-            }
+		.p-submenu-list:not(.p-panelmenu-root-list) {
+			padding: $treeNodeChildrenPadding;
+		}
+	}
 
-            &:not(:first-child) {
-                .p-panelmenu-header {
-                    > a {
-                        border-top: 0 none;
-                    }
+	.p-panelmenu-panel {
+		margin-bottom: $accordionSpacing;
 
-                    &:not(.p-highlight):not(.p-disabled):hover,
-                    &:not(.p-disabled).p-highlight:hover {
-                        > a {
-                            border-top: 0 none;
-                        }
-                    }
-                }
-            }
+		@if $accordionSpacing == 0 {
+			.p-panelmenu-header {
+				.p-panelmenu-header-content {
+					border-radius: 0;
+				}
+			}
 
-            &:first-child {
-                .p-panelmenu-header {
-                    > a {
-                        border-top-right-radius: $borderRadius;
-                        border-top-left-radius: $borderRadius;
-                    }
-                }
-            }
+			.p-panelmenu-content {
+				border-radius: 0;
+			}
 
-            &:last-child {
-                .p-panelmenu-header:not(.p-highlight) {
-                    > a {
-                        border-bottom-right-radius: $borderRadius;
-                        border-bottom-left-radius: $borderRadius;
-                    }
-                }
+			&:not(:first-child) {
+				.p-panelmenu-header {
+					.p-panelmenu-header-content {
+						border-top: 0 none;
+					}
 
-                .p-panelmenu-content {
-                    border-bottom-right-radius: $borderRadius;
-                    border-bottom-left-radius: $borderRadius;
-                }
-            }
-        } 
-    }
+					&:not(.p-highlight):not(.p-disabled):hover,
+					&:not(.p-disabled).p-highlight:hover {
+						.p-panelmenu-header-content {
+							border-top: 0 none;
+						}
+					}
+				}
+			}
 
+			&:first-child {
+				.p-panelmenu-header {
+					.p-panelmenu-header-content {
+						border-top-right-radius: $borderRadius;
+						border-top-left-radius: $borderRadius;
+					}
+				}
+			}
+
+			&:last-child {
+				.p-panelmenu-header:not(.p-highlight) {
+					.p-panelmenu-header-content {
+						border-bottom-right-radius: $borderRadius;
+						border-bottom-left-radius: $borderRadius;
+					}
+				}
+
+				.p-panelmenu-content {
+					border-bottom-right-radius: $borderRadius;
+					border-bottom-left-radius: $borderRadius;
+				}
+			}
+		}
+	}
 }

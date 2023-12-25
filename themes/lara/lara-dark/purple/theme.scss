@@ -1,13 +1,14 @@
 $primaryColor: #a78bfa !default;
 $primaryLightColor: #c4b5fd !default;
-$primaryLighterColor: #ddd6fe!default;
-$primaryLightestColor: rgba(167, 139, 250, .2) !default;
+$primaryLighterColor: #ddd6fe !default;
+$primaryLightestColor: rgba(167, 139, 250, 0.2) !default;
 $primaryTextColor: #030712 !default;
 
-$highlightBg:rgba(167, 139, 250, .16) !default;
-$highlightTextColor: rgba(255,255,255,.87) !default;
+$highlightBg: rgba(167, 139, 250, 0.16) !default;
+$highlightTextColor: rgba(255, 255, 255, 0.87) !default;
+$highlightFocusBg: rgba($primaryColor, 0.24) !default;
 
-@import '../_variables';
-@import './_fonts';
-@import '../../../../theme-base/_components';
-@import '../_extensions';
+@import "../_variables";
+@import "./_fonts";
+@import "../../../../theme-base/_components";
+@import "../_extensions";
