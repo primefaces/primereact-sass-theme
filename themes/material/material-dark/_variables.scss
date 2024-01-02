@@ -99,6 +99,8 @@ $inputListItemBg: transparent !default;
 $inputListItemTextColor: $textColor !default;
 $inputListItemHoverBg: hsla(0, 0%, 100%, 0.04) !default;
 $inputListItemTextHoverColor: $textColor !default;
+$inputListItemTextFocusColor: $textColor !default;
+$inputListItemFocusBg: hsla(0, 0%, 100%, 0.12) !default;
 $inputListItemBorder: 0 none !default;
 $inputListItemBorderRadius: 0 !default;
 $inputListItemMargin: 0 !default;

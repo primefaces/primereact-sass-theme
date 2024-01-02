@@ -1,6 +1,6 @@
 /// Padding of an input field, must be defined with a shorthand for vertical and horizontal values e.g. ".5rem .5rem"
 /// @group form
-$inputPadding: .5rem .5rem;
+$inputPadding: 0.5rem 0.5rem;
 
 /// Background of an input field
 /// @group form
@@ -40,15 +40,15 @@ $inputPlaceholderTextColor: #6c757d;
 
 /// Background of a filled input
 /// @group form
-$inputFilledBg:#f8f9fa;
+$inputFilledBg: #f8f9fa;
 
 /// Background of a filled input in hover state
 /// @group form
-$inputFilledHoverBg:#f8f9fa;
+$inputFilledHoverBg: #f8f9fa;
 
 /// Background of a filled input in focus state
 /// @group form
-$inputFilledFocusBg:#f8f9fa;
+$inputFilledFocusBg: #f8f9fa;
 
 /// Backgroud color of an input group addon
 /// @group form
@@ -76,11 +76,11 @@ $inputListBorder: $inputBorder;
 
 /// Padding of an input list
 /// @group form
-$inputListPadding: .5rem 0;
+$inputListPadding: 0.5rem 0;
 
 /// Padding for an individual itrem of an input list
 /// @group form
-$inputListItemPadding: .5rem 1rem;
+$inputListItemPadding: 0.5rem 1rem;
 
 /// Background for an individual itrem of an input list
 /// @group form
@@ -97,6 +97,14 @@ $inputListItemHoverBg: #e9ecef;
 /// Hover state text color for an individual itrem of an input list
 /// @group form
 $inputListItemTextHoverColor: $textColor;
+
+/// Focus state text color for an individual itrem of an input list
+/// @group form
+$inputListItemTextFocusColor: $textColor;
+
+/// Focus state background for an individual itrem of an input list
+/// @group form
+$inputListItemFocusBg: #f8f9fa;
 
 /// Border for an individual itrem of an input list
 /// @group form
@@ -116,7 +124,7 @@ $inputListItemFocusShadow: inset 0 0 0 0.15rem $focusOutlineColor;
 
 /// Padding for a header of an input list
 /// @group form
-$inputListHeaderPadding: .5rem 1rem;
+$inputListHeaderPadding: 0.5rem 1rem;
 
 /// Margin for a header of an input list
 /// @group form
@@ -134,14 +142,13 @@ $inputListHeaderTextColor: $textColor;
 /// @group form
 $inputListHeaderBorder: 0 none;
 
-
 /// Background for an overlay of an input such as autocomplete or dropdown
 /// @group form
-$inputOverlayBg:$inputListBg;
+$inputOverlayBg: $inputListBg;
 
 /// Background for an overlay header of an input such as autocomplete or dropdown
 /// @group form
-$inputOverlayHeaderBg:$inputListHeaderBg;
+$inputOverlayHeaderBg: $inputListHeaderBg;
 
 /// Border for an overlay of an input such as autocomplete or dropdown
 /// @group form
@@ -285,7 +292,7 @@ $sliderBorder: 0 none;
 
 /// Height of a horizontal slider
 /// @group form
-$sliderHorizontalHeight: .286rem;
+$sliderHorizontalHeight: 0.286rem;
 
 /// Width of a vertical slider
 /// @group form
@@ -325,19 +332,19 @@ $sliderRangeBg: $primaryColor;
 
 /// Margin of a calendar table
 /// @group form
-$calendarTableMargin: .5rem 0;
+$calendarTableMargin: 0.5rem 0;
 
 /// Margin of a calendar
 /// @group form
-$calendarPadding: .5rem;
+$calendarPadding: 0.5rem;
 
 /// Background of a calendar
 /// @group form
-$calendarBg:#ffffff;
+$calendarBg: #ffffff;
 
 /// Background of an inlime calendar
 /// @group form
-$calendarInlineBg:$calendarBg;
+$calendarInlineBg: $calendarBg;
 
 /// Text color of a calendar
 /// @group form
@@ -353,7 +360,7 @@ $calendarOverlayBorder: $inputOverlayBorder;
 
 /// Padding of a calendar header
 /// @group form
-$calendarHeaderPadding: .5rem;
+$calendarHeaderPadding: 0.5rem;
 
 /// Text color of current month and year text in hover state
 /// @group form
@@ -365,7 +372,7 @@ $calendarHeaderBg: #ffffff;
 
 /// Background of an inline calendar header
 /// @group form
-$calendarInlineHeaderBg:$calendarBg;
+$calendarInlineHeaderBg: $calendarBg;
 
 /// Border of a calendar header
 /// @group form
@@ -381,11 +388,11 @@ $calendarHeaderFontWeight: 600;
 
 /// Padding of a calendar weekday cell
 /// @group form
-$calendarHeaderCellPadding: .5rem;
+$calendarHeaderCellPadding: 0.5rem;
 
 /// Padding of a calendar date cell
 /// @group form
-$calendarCellDatePadding: .5rem;
+$calendarCellDatePadding: 0.5rem;
 
 /// Width of a calendar date cell
 /// @group form
@@ -401,7 +408,7 @@ $calendarCellDateBorderRadius: 50%;
 
 /// Border of a calendar date cell
 /// @group form
-$calendarCellDateBorder:1px solid transparent;
+$calendarCellDateBorder: 1px solid transparent;
 
 /// Background of a calendar date cell in hover state
 /// @group form
@@ -425,11 +432,11 @@ $calendarButtonBarPadding: 1rem 0;
 
 /// Padding of a time picker container of a calendar
 /// @group form
-$calendarTimePickerPadding: .5rem;
+$calendarTimePickerPadding: 0.5rem;
 
 /// Padding of a time picker element of a calendar
 /// @group form
-$calendarTimePickerElementPadding: 0 .429rem;
+$calendarTimePickerElementPadding: 0 0.429rem;
 
 /// Font size of a time picker element of a calendar
 /// @group form
@@ -457,11 +464,11 @@ $inputSwitchBorderRadius: 30px;
 
 /// Width of an inputswitch handle
 /// @group form
-$inputSwitchHandleWidth: 1.250rem;
+$inputSwitchHandleWidth: 1.25rem;
 
 /// Height of an inputswitch handle
 /// @group form
-$inputSwitchHandleHeight: 1.250rem;
+$inputSwitchHandleHeight: 1.25rem;
 
 /// Border radius of an inputswitch handle
 /// @group form
@@ -469,7 +476,7 @@ $inputSwitchHandleBorderRadius: 50%;
 
 /// Padding of an inputswitch slider
 /// @group form
-$inputSwitchSliderPadding: .25rem;
+$inputSwitchSliderPadding: 0.25rem;
 
 /// Background color of an inputswitch slider when unselected
 /// @group form
@@ -497,7 +504,7 @@ $inputSwitchHandleOnBg: #ffffff;
 
 /// Height for the progress bar of a fileupload
 /// @group form
-$fileUploadProgressBarHeight: .25rem;
+$fileUploadProgressBarHeight: 0.25rem;
 
 /// Padding of the fileupload content section
 /// @group form
@@ -505,27 +512,27 @@ $fileUploadContentPadding: 2rem 1rem;
 
 /// Background of an editor toolbar
 /// @group form
-$editorToolbarBg:#f8f9fa;
+$editorToolbarBg: #f8f9fa;
 
 /// Border of an editor toolbar
 /// @group form
-$editorToolbarBorder:1px solid #dee2e6;
+$editorToolbarBorder: 1px solid #dee2e6;
 
 /// Padding of an editor toolbar
 /// @group form
-$editorToolbarPadding:1rem;
+$editorToolbarPadding: 1rem;
 
 /// Icon color of an editor toolbar
 /// @group form
-$editorToolbarIconColor:#6c757d;
+$editorToolbarIconColor: #6c757d;
 
 /// Icon color of an editor toolbar in hover state
 /// @group form
-$editorToolbarIconHoverColor:#495057;
+$editorToolbarIconHoverColor: #495057;
 
 /// Icon color of an editor toolbar in active state
 /// @group form
-$editorIconActiveColor:$primaryColor;
+$editorIconActiveColor: $primaryColor;
 
 /// Border of an editor content
 /// @group form
@@ -533,20 +540,20 @@ $editorContentBorder: 1px solid #dee2e6;
 
 /// Background of an editor content
 /// @group form
-$editorContentBg:#ffffff;
+$editorContentBg: #ffffff;
 
 /// Background of a password meter
 /// @group form
-$passwordMeterBg:#dee2e6;
+$passwordMeterBg: #dee2e6;
 
 /// Background of a week password
 /// @group form
-$passwordWeakBg:#E53935;
+$passwordWeakBg: #e53935;
 
 /// Background of a medium password
 /// @group form
-$passwordMediumBg:#FFB300;
+$passwordMediumBg: #ffb300;
 
 /// Background of a strong password
 /// @group form
-$passwordStrongBg:#43A047;
+$passwordStrongBg: #43a047;
