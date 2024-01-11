@@ -1,4 +1,8 @@
 # Changelog
+## [10.3.0](https://github.com/primefaces/primereact-sass-theme/tree/HEAD) (2023-11-05)
+
+[Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/10.2.1...10.3.0)
+
 ## [10.2.1](https://github.com/primefaces/primereact-sass-theme/tree/HEAD) (2023-11-27)
 
 [Full Changelog](https://github.com/primefaces/primereact-sass-theme/compare/10.2.0...10.2.1)
