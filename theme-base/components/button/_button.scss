@@ -381,7 +381,7 @@
     }
 }
 
-.p-button.p-button-warning, .p-buttonset.p-button-warning > .p-button, .p-splitbutton.p-button-warning > .p-button, .p-fileupload-choose.p-button-warning {
+.p-button.p-button-warn, .p-buttonset.p-button-warn > .p-button, .p-splitbutton.p-button-warn > .p-button, .p-fileupload-choose.p-button-warn {
     color: $warningButtonTextColor;
     background: $warningButtonBg;
     border: $warningButtonBorder;
@@ -497,7 +497,8 @@
     }
 }
 
-.p-button.p-button-danger, .p-buttonset.p-button-danger > .p-button, .p-splitbutton.p-button-danger > .p-button, .p-fileupload-choose.p-button-danger {
+.p-button.p-button-danger, .p-buttonset.p-button-danger > .p-button, .p-splitbutton.p-button-danger > .p-button, .p-fileupload-choose.p-button-danger,
+.p-button.p-button-error,.p-buttonset.p-button-error>.p-button,.p-splitbutton.p-button-error>.p-button,.p-fileupload-choose.p-button-error {
     color: $dangerButtonTextColor;
     background: $dangerButtonBg;
     border: $dangerButtonBorder;

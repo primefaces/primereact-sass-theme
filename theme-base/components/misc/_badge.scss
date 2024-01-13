@@ -22,12 +22,22 @@
         color: $infoButtonTextColor;
     }
 
-    &.p-badge-warning {
+    &.p-badge-warn {
         background-color: $warningButtonBg;
         color: $warningButtonTextColor;
     }
 
+    &.p-badge-help {
+        background-color: $helpButtonBg;
+        color: $helpButtonTextColor;
+    }
+
     &.p-badge-danger {
+        background-color: $dangerButtonBg;
+        color: $dangerButtonTextColor;
+    }
+
+    &.p-badge-error {
         background-color: $dangerButtonBg;
         color: $dangerButtonTextColor;
     }

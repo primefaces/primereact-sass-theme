@@ -238,7 +238,7 @@
     }
 }
 
-.p-splitbutton.p-button-warning {
+.p-splitbutton.p-button-warn {
     &.p-button-outlined {
         > .p-button {
             background-color: transparent;
@@ -318,7 +318,8 @@
     }
 }
 
-.p-splitbutton.p-button-danger {
+.p-splitbutton.p-button-danger,
+.p-splitbutton.p-button-error {
     &.p-button-outlined {
         > .p-button {
             background-color: transparent;

@@ -8,6 +8,11 @@
     padding: $tagPadding;
     border-radius: $borderRadius;
 
+    &.p-tag-secondary {
+        background-color: $secondaryButtonBg;
+        color: $secondaryButtonTextColor;
+    }
+
     &.p-tag-success {
         background-color: $successButtonBg;
         color: $successButtonTextColor;
@@ -18,12 +23,22 @@
         color: $infoButtonTextColor;
     }
 
-    &.p-tag-warning {
+    &.p-tag-warn {
         background-color: $warningButtonBg;
         color: $warningButtonTextColor;
     }
 
+    &.p-tag-help {
+        background-color: $helpButtonBg;
+        color: $helpButtonTextColor;
+    }
+
     &.p-tag-danger {
+        background-color: $dangerButtonBg;
+        color: $dangerButtonTextColor;
+    }
+
+    &.p-tag-error {
         background-color: $dangerButtonBg;
         color: $dangerButtonTextColor;
     }
