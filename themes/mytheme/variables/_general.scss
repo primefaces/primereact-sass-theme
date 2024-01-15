@@ -1,6 +1,7 @@
 /// Font of the theme
 /// @group general
-$fontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$fontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+	Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 /// Size of the font
 /// @group general
@@ -26,25 +27,33 @@ $highlightBg: $primaryColor;
 /// @group general
 $highlightTextColor: $primaryTextColor;
 
+/// Background of a highlighted item in focus state
+/// @group general
+$highlightFocusBg: rgba($primaryColor, 0.24) !default;
+
 /// Radius of the corners
 /// @group general
 $borderRadius: 3px;
 
 /// Duration of the property transitions
 /// @group general
-$transitionDuration: .2s;
+$transitionDuration: 0.2s;
 
 /// Properties of a form element transition
 /// @group general
-$formElementTransition: background-color $transitionDuration, color $transitionDuration, border-color $transitionDuration, box-shadow $transitionDuration;
+$formElementTransition: background-color $transitionDuration,
+	color $transitionDuration, border-color $transitionDuration,
+	box-shadow $transitionDuration;
 
 /// Properties of a action icon transition
 /// @group general
-$actionIconTransition: background-color $transitionDuration, color $transitionDuration, box-shadow $transitionDuration;
+$actionIconTransition: background-color $transitionDuration,
+	color $transitionDuration, box-shadow $transitionDuration;
 
 /// Properties of a list item transition
 /// @group general
-$listItemTransition: background-color $transitionDuration, border-color $transitionDuration, box-shadow $transitionDuration;
+$listItemTransition: background-color $transitionDuration,
+	border-color $transitionDuration, box-shadow $transitionDuration;
 
 /// Size of the Icons
 /// @group general
@@ -56,11 +65,11 @@ $divider: 1px solid #dee2e6;
 
 /// Space between two inline items
 /// @group general
-$inlineSpacing: .5rem;
+$inlineSpacing: 0.5rem;
 
 /// Opacity of the disabled elements
 /// @group general
-$disabledOpacity: .8;
+$disabledOpacity: 0.8;
 
 /// Background of the modal layer
 /// @group general
@@ -128,8 +137,8 @@ $actionIconBorderRadius: 50%;
 
 /// Scale factor of small component size
 /// @group general
-$scaleSM:0.875;
+$scaleSM: 0.875;
 
 /// Scale factor of small large size
 /// @group general
-$scaleLG:1.25;
+$scaleLG: 1.25;

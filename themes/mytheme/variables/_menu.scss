@@ -52,7 +52,7 @@ $menuTextColor: $textColor;
 
 /// Padding of a menuitem
 /// @group menu
-$menuitemPadding: .75rem 1rem;
+$menuitemPadding: 0.75rem 1rem;
 
 /// Border radius of a menuitem
 /// @group menu
@@ -78,6 +78,18 @@ $menuitemIconHoverColor: $textSecondaryColor;
 /// @group menu
 $menuitemHoverBg: #e9ecef;
 
+/// Text color of a menuitem in focus state
+/// @group menu
+$menuitemTextFocusColor: $textColor;
+
+/// Icon color of a menuitem in focus state
+/// @group menu
+$menuitemIconFocusColor: $textColor;
+
+/// Background of a menuitem in focus state
+/// @group menu
+$menuitemFocusBg: #f8f9fa;
+
 /// Text color of a menuitrem in active state
 /// @group menu
 $menuitemTextActiveColor: $textColor;
@@ -90,9 +102,13 @@ $menuitemIconActiveColor: $textSecondaryColor;
 /// @group menu
 $menuitemActiveBg: #e9ecef;
 
+/// Background of a menuitem in active and focus states
+/// @group menu
+$menuitemActiveFocusBg: #e9ecef;
+
 /// Font size of an icon indicating the itrem has a submenu
 /// @group menu
-$menuitemSubmenuIconFontSize: .875rem;
+$menuitemSubmenuIconFontSize: 0.875rem;
 
 /// Margin of a submenu header
 /// @group menu
@@ -100,7 +116,7 @@ $submenuHeaderMargin: 0;
 
 /// Padding of a submenu header
 /// @group menu
-$submenuHeaderPadding: .75rem 1rem;
+$submenuHeaderPadding: 0.75rem 1rem;
 
 /// Background of a submenu header
 /// @group menu
@@ -120,7 +136,7 @@ $submenuHeaderFontWeight: 600;
 
 /// Background of an overlay menu
 /// @group menu
-$overlayMenuBg:$menuBg;
+$overlayMenuBg: $menuBg;
 
 /// Border of an overlay menu
 /// @group menu
@@ -132,11 +148,11 @@ $overlayMenuShadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1);
 
 /// Padding of a vertical menu e.g. tieredmenu, contextmenu
 /// @group menu
-$verticalMenuPadding: .25rem 0;
+$verticalMenuPadding: 0.25rem 0;
 
 /// Margin of a menuitrem separator
 /// @group menu
-$menuSeparatorMargin: .25rem 0;
+$menuSeparatorMargin: 0.25rem 0;
 
 /// Padding of a breadcrumb
 /// @group menu
@@ -172,7 +188,7 @@ $breadcrumbSeparatorColor: $menuitemTextColor;
 
 /// Padding of a horizontal menu e.g. menubar
 /// @group menu
-$horizontalMenuPadding: .5rem;
+$horizontalMenuPadding: 0.5rem;
 
 /// Background of a horizontal menu e.g. menubar
 /// @group menu
@@ -216,7 +232,7 @@ $horizontalMenuRootMenuitemHoverBg: $menuitemHoverBg;
 
 /// Text color of a horizontal menu root item in hover active e.g. menubar
 /// @group menu
-$horizontalMenuRootMenuitemTextActiveColor:$menuitemTextActiveColor;
+$horizontalMenuRootMenuitemTextActiveColor: $menuitemTextActiveColor;
 
 /// Icon color of a horizontal menu root item in hover active e.g. menubar
 /// @group menu
@@ -236,7 +252,11 @@ $dockActionHeight: 4rem;
 
 /// Padding of an action item on dock
 /// @group menu
-$dockItemPadding: .5rem;
+$dockItemPadding: 0.5rem;
+
+/// Border radius of an action item on dock
+/// @group menu
+$dockItemBorderRadius: $borderRadius;
 
 /// Margin of the current action item on dock
 /// @group menu
@@ -252,16 +272,16 @@ $dockSecondItemsMargin: 0.9rem;
 
 /// Background of the list on dock
 /// @group menu
-$dockBg: rgba(255,255,255,.1);
+$dockBg: rgba(255, 255, 255, 0.1);
 
 /// Border of the list on dock
 /// @group menu
-$dockBorder: 1px solid rgba(255,255,255,0.2);
+$dockBorder: 1px solid rgba(255, 255, 255, 0.2);
 
 /// Padding of the list on dock
 /// @group menu
-$dockPadding: .5rem .5rem;
+$dockPadding: 0.5rem 0.5rem;
 
 /// Border Radius of the list on dock
 /// @group menu
-$dockBorderRadius: .5rem;
+$dockBorderRadius: 0.5rem;

@@ -6,5 +6,6 @@ $primaryTextColor: #151515 !default;
 
 $highlightBg: $primaryColor !default;
 $highlightTextColor: $primaryTextColor !default;
+$highlightFocusBg: darken($primaryColor, 8%) !default;
 
-@import '../_variables_dark';
+@import "../_variables_dark";

@@ -9,7 +9,7 @@
         border-radius: 0;
     }
 
-   .p-treetable-header {
+    .p-treetable-header {
         background: $tableHeaderBg;
         color: $tableHeaderTextColor;
         border: $tableHeaderBorder;
@@ -113,7 +113,7 @@
                 }
             }
 
-            &:focus {
+            &:focus-visible {
                 outline: .15rem solid $focusOutlineColor;
                 outline-offset: -.15rem;
             }

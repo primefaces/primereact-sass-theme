@@ -6,14 +6,12 @@
         min-width: auto;
     }
 
-    @include button-states {
-        &:focus {
-            background: rgba($buttonBg, .76);
-        }
+    &:not(:disabled):focus {
+        background: rgba($buttonBg, .76);
+    }
 
-        &:active {
-            background: rgba($buttonBg, .68);
-        }
+    &:not(:disabled):active {
+        background: rgba($buttonBg, .68);
     }
 
     .p-ink {
@@ -22,14 +20,12 @@
 
     &.p-button-text,
     &.p-button-outlined {
-        @include button-states {
-            &:focus {
-                background: rgba($buttonBg, .12);
-            }
+        &:not(:disabled):focus {
+            background: rgba($buttonBg, .12);
+        }
 
-            &:active {
-                background: rgba($buttonBg, .16);
-            }
+        &:not(:disabled):active {
+            background: rgba($buttonBg, .16);
         }
 
         .p-ink {
@@ -67,35 +63,29 @@
     }
 
     &.p-button-raised {
-        @include button-states {
-            &:focus {
-                box-shadow: $raisedButtonShadow;
-            }
+        &:not(:disabled):focus {
+            box-shadow: $raisedButtonShadow;
         }
     }
 }
 
 .p-button.p-button-secondary, .p-buttonset.p-button-secondary > .p-button, .p-splitbutton.p-button-secondary > .p-button, .p-fileupload-choose.p-button-secondary {
-    @include button-states {
-        &:focus {
-            background: rgba($secondaryButtonBg, .76);
-        }
+    &:not(:disabled):focus {
+        background: rgba($secondaryButtonBg, .76);
+    }
 
-        &:active {
-            background: rgba($secondaryButtonBg, .68);
-        }
+    &:not(:disabled):active {
+        background: rgba($secondaryButtonBg, .68);
     }
 
     &.p-button-text,
     &.p-button-outlined {
-        @include button-states {
-            &:focus {
-                background: rgba($secondaryButtonBg, .12);
-            }
+        &:not(:disabled):focus {
+            background: rgba($secondaryButtonBg, .12);
+        }
 
-            &:active {
-                background: rgba($secondaryButtonBg, .16);
-            }
+        &:not(:disabled):active {
+            background: rgba($secondaryButtonBg, .16);
         }
 
         .p-ink {
@@ -105,26 +95,22 @@
 }
 
 .p-button.p-button-info, .p-buttonset.p-button-info > .p-button, .p-splitbutton.p-button-info > .p-button, .p-fileupload-choose.p-button-info {
-    @include button-states {
-        &:focus {
-            background: rgba($infoButtonBg, .76);
-        }
+    &:not(:disabled):focus {
+        background: rgba($infoButtonBg, .76);
+    }
 
-        &:active {
-            background: rgba($infoButtonBg, .68);
-        }
+    &:not(:disabled):active {
+        background: rgba($infoButtonBg, .68);
     }
 
     &.p-button-text,
     &.p-button-outlined {
-        @include button-states {
-            &:focus {
-                background: rgba($infoButtonBg, .12);
-            }
+        &:not(:disabled):focus {
+            background: rgba($infoButtonBg, .12);
+        }
 
-            &:active {
-                background: rgba($infoButtonBg, .16);
-            }
+        &:not(:disabled):active {
+            background: rgba($infoButtonBg, .16);
         }
 
         .p-ink {
@@ -134,26 +120,22 @@
 }
 
 .p-button.p-button-success, .p-buttonset.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button, .p-fileupload-choose.p-button-success {
-    @include button-states {
-        &:focus {
-            background: rgba($successButtonBg, .76);
-        }
+    &:not(:disabled):focus {
+        background: rgba($successButtonBg, .76);
+    }
 
-        &:active {
-            background: rgba($successButtonBg, .68);
-        }
+    &:not(:disabled):active {
+        background: rgba($successButtonBg, .68);
     }
 
     &.p-button-text,
     &.p-button-outlined {
-        @include button-states {
-            &:focus {
-                background: rgba($successButtonBg, .12);
-            }
+        &:not(:disabled):focus {
+            background: rgba($successButtonBg, .12);
+        }
 
-            &:active {
-                background: rgba($successButtonBg, .16);
-            }
+        &:not(:disabled):active {
+            background: rgba($successButtonBg, .16);
         }
 
         .p-ink {
@@ -163,26 +145,22 @@
 }
 
 .p-button.p-button-warning, .p-buttonset.p-button-warning > .p-button, .p-splitbutton.p-button-warning > .p-button, .p-fileupload-choose.p-button-warning {
-    @include button-states {
-        &:focus {
-            background: rgba($warningButtonBg, .76);
-        }
+    &:not(:disabled):focus {
+        background: rgba($warningButtonBg, .76);
+    }
 
-        &:active {
-            background: rgba($warningButtonBg, .68);
-        }
+    &:not(:disabled):active {
+        background: rgba($warningButtonBg, .68);
     }
 
     &.p-button-text,
     &.p-button-outlined {
-        @include button-states {
-            &:focus {
-                background: rgba($warningButtonBg, .12);
-            }
+        &:not(:disabled):focus {
+            background: rgba($warningButtonBg, .12);
+        }
 
-            &:active {
-                background: rgba($warningButtonBg, .16);
-            }
+        &:not(:disabled):active {
+            background: rgba($warningButtonBg, .16);
         }
 
         .p-ink {
@@ -192,26 +170,22 @@
 }
 
 .p-button.p-button-help, .p-buttonset.p-button-help > .p-button, .p-splitbutton.p-button-help > .p-button, .p-fileupload-choose.p-button-help {
-    @include button-states {
-        &:focus {
-            background: rgba($helpButtonBg, .76);
-        }
+    &:not(:disabled):focus {
+        background: rgba($helpButtonBg, .76);
+    }
 
-        &:active {
-            background: rgba($helpButtonBg, .68);
-        }
+    &:not(:disabled):active {
+        background: rgba($helpButtonBg, .68);
     }
 
     &.p-button-text,
     &.p-button-outlined {
-        @include button-states {
-            &:focus {
-                background: rgba($helpButtonBg, .12);
-            }
+        &:not(:disabled):focus {
+            background: rgba($helpButtonBg, .12);
+        }
 
-            &:active {
-                background: rgba($helpButtonBg, .16);
-            }
+        &:not(:disabled):active {
+            background: rgba($helpButtonBg, .16);
         }
 
         .p-ink {
@@ -221,26 +195,22 @@
 }
 
 .p-button.p-button-danger, .p-buttonset.p-button-danger > .p-button, .p-splitbutton.p-button-danger > .p-button, .p-fileupload-choose.p-button-danger {
-    @include button-states {
-        &:focus {
-            background: rgba($dangerButtonBg, .76);
-        }
+    &:not(:disabled):focus {
+        background: rgba($dangerButtonBg, .76);
+    }
 
-        &:active {
-            background: rgba($dangerButtonBg, .68);
-        }
+    &:not(:disabled):active {
+        background: rgba($dangerButtonBg, .68);
     }
 
     &.p-button-text,
     &.p-button-outlined {
-        @include button-states {
-            &:focus {
-                background: rgba($dangerButtonBg, .12);
-            }
+        &:not(:disabled):focus {
+            background: rgba($dangerButtonBg, .12);
+        }
 
-            &:active {
-                background: rgba($dangerButtonBg, .16);
-            }
+        &:not(:disabled):active {
+            background: rgba($dangerButtonBg, .16);
         }
 
         .p-ink {
