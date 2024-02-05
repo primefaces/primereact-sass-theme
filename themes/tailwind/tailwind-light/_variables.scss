@@ -8,18 +8,18 @@ $highlightTextColor: #312e81 !default;
 $highlightFocusBg: #e0e7ff !default;
 
 $colors: (
-	"blue": #3b82f6,
-	"green": #22c55e,
-	"yellow": #eab308,
-	"cyan": #06b6d4,
-	"pink": #ec4899,
-	"indigo": #6366f1,
-	"teal": #14b8a6,
-	"orange": #f97316,
-	"bluegray": #64748b,
-	"purple": #a855f7,
-	"red": #ef4444,
-	"primary": $primaryColor
+  "blue": #3b82f6,
+  "green": #22c55e,
+  "yellow": #eab308,
+  "cyan": #06b6d4,
+  "pink": #ec4899,
+  "indigo": #6366f1,
+  "teal": #14b8a6,
+  "orange": #f97316,
+  "bluegray": #64748b,
+  "purple": #a855f7,
+  "red": #ef4444,
+  "primary": $primaryColor,
 );
 
 //reused color variables
@@ -35,9 +35,7 @@ $shade800: #27272a !default; //unused                 gray-800
 $shade900: #18181b !default; //unused                 gray-900
 
 //global
-$fontFamily: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-	"Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-	"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$fontFamily: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $fontSize: 1rem !default;
 $fontWeight: normal !default;
 $textColor: $shade700 !default;
@@ -122,8 +120,7 @@ $inputListHeaderBorder: 0 none !default;
 $inputOverlayBg: $inputListBg !default;
 $inputOverlayHeaderBg: $inputListHeaderBg !default;
 $inputOverlayBorder: 0 none !default;
-$inputOverlayShadow: 0 0 #0000, 0 0 #0000, 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-	0 4px 6px -2px rgba(0, 0, 0, 0.05) !default;
+$inputOverlayShadow: 0 0 #0000, 0 0 #0000, 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !default;
 
 //password
 $passwordMeterBg: $shade300 !default;
@@ -144,8 +141,7 @@ $buttonHoverBorderColor: $primaryDarkColor !default;
 $buttonActiveBg: $primaryDarkColor !default;
 $buttonTextActiveColor: $primaryTextColor !default;
 $buttonActiveBorderColor: $primaryDarkColor !default;
-$raisedButtonShadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-	0 2px 4px -1px rgba(0, 0, 0, 0.06) !default;
+$raisedButtonShadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !default;
 $roundedButtonBorderRadius: 2rem !default;
 
 $textButtonHoverBgOpacity: 0.04 !default;
@@ -164,8 +160,7 @@ $secondaryButtonHoverBorderColor: #475569 !default;
 $secondaryButtonActiveBg: #475569 !default;
 $secondaryButtonTextActiveColor: $secondaryButtonTextColor !default;
 $secondaryButtonActiveBorderColor: #475569 !default;
-$secondaryButtonFocusShadow: 0 0 0 0.2rem
-	scale-color($secondaryButtonBg, $lightness: 60%) !default;
+$secondaryButtonFocusShadow: 0 0 0 0.2rem scale-color($secondaryButtonBg, $lightness: 60%) !default;
 
 $infoButtonBg: #3b82f6 !default;
 $infoButtonTextColor: #ffffff !default;
@@ -187,8 +182,7 @@ $successButtonHoverBorderColor: #16a34a !default;
 $successButtonActiveBg: #16a34a !default;
 $successButtonTextActiveColor: $successButtonTextColor !default;
 $successButtonActiveBorderColor: #16a34a !default;
-$successButtonFocusShadow: 0 0 0 0.2rem
-	scale-color($successButtonBg, $lightness: 60%) !default;
+$successButtonFocusShadow: 0 0 0 0.2rem scale-color($successButtonBg, $lightness: 60%) !default;
 
 $warningButtonBg: #f59e0b !default;
 $warningButtonTextColor: #ffffff !default;
@@ -199,8 +193,7 @@ $warningButtonHoverBorderColor: #d97706 !default;
 $warningButtonActiveBg: #d97706 !default;
 $warningButtonTextActiveColor: $warningButtonTextColor !default;
 $warningButtonActiveBorderColor: #d97706 !default;
-$warningButtonFocusShadow: 0 0 0 0.2rem
-	scale-color($warningButtonBg, $lightness: 60%) !default;
+$warningButtonFocusShadow: 0 0 0 0.2rem scale-color($warningButtonBg, $lightness: 60%) !default;
 
 $helpButtonBg: #a855f7 !default;
 $helpButtonTextColor: #ffffff !default;
@@ -222,8 +215,7 @@ $dangerButtonHoverBorderColor: #dc2626 !default;
 $dangerButtonActiveBg: #dc2626 !default;
 $dangerButtonTextActiveColor: $dangerButtonTextColor !default;
 $dangerButtonActiveBorderColor: #dc2626 !default;
-$dangerButtonFocusShadow: 0 0 0 0.2rem
-	scale-color($dangerButtonBg, $lightness: 60%) !default;
+$dangerButtonFocusShadow: 0 0 0 0.2rem scale-color($dangerButtonBg, $lightness: 60%) !default;
 
 $linkButtonColor: $primaryColor !default;
 $linkButtonHoverColor: $primaryColor !default;
@@ -585,8 +577,7 @@ $toastMessageTextMargin: 0 0 0 1rem !default;
 $toastMargin: 0 0 1rem 0 !default;
 $toastPadding: 1rem !default;
 $toastBorderWidth: 0 0 0 6px !default;
-$toastShadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-	0 10px 10px -5px rgba(0, 0, 0, 0.04) !default;
+$toastShadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !default;
 $toastOpacity: 0.9 !default;
 $toastTitleFontWeight: 700 !default;
 $toastDetailMargin: $inlineSpacing 0 0 0 !default;
@@ -612,8 +603,7 @@ $errorMessageIconColor: #dc2626 !default;
 //overlays
 $overlayContentBorder: 0 none !default;
 $overlayContentBg: $panelContentBg !default;
-$overlayContainerShadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-	0 10px 10px -5px rgba(0, 0, 0, 0.04) !default;
+$overlayContainerShadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !default;
 
 //dialog
 $dialogHeaderBg: $shade000 !default;
@@ -681,8 +671,7 @@ $submenuHeaderBorderRadius: 0 !default;
 $submenuHeaderFontWeight: 600 !default;
 $overlayMenuBg: $menuBg !default;
 $overlayMenuBorder: 0 none !default;
-$overlayMenuShadow: 0 0 #0000, 0 0 #0000, 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-	0 4px 6px -2px rgba(0, 0, 0, 0.05) !default;
+$overlayMenuShadow: 0 0 #0000, 0 0 #0000, 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !default;
 $verticalMenuPadding: 0.25rem 0 !default;
 $menuSeparatorMargin: 0.25rem 0 !default;
 
@@ -790,6 +779,8 @@ $avatarTextColor: $textColor !default;
 $chipBg: $shade300 !default;
 $chipTextColor: $textColor !default;
 $chipBorderRadius: 16px !default;
+$chipFocusBg: $shade400 !default;
+$chipFocusTextColor: $textColor !default;
 
 //scrollTop
 $scrollTopBg: rgba(0, 0, 0, 0.7) !default;
@@ -861,57 +852,51 @@ $imagePreviewActionIconFontSize: 1.5rem !default;
 $imagePreviewActionIconBorderRadius: 50% !default;
 
 :root {
-	font-family: Inter, ui-sans-serif, system-ui, -apple-system,
-		BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-		"Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-		"Segoe UI Symbol", "Noto Color Emoji";
-	--font-family: Inter, ui-sans-serif, system-ui, -apple-system,
-		BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
-		"Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-		"Segoe UI Symbol", "Noto Color Emoji";
-	--surface-a: #{$shade000};
-	--surface-b: #{$shade100};
-	--surface-c: #{$shade200};
-	--surface-d: #{$shade300};
-	--surface-e: #{$shade000};
-	--surface-f: #{$shade000};
-	--text-color: #{$shade700};
-	--text-color-secondary: #{$shade600};
-	--primary-color: #{$primaryColor};
-	--primary-color-text: #{$primaryTextColor};
-	--surface-0: #ffffff;
-	--surface-50: #fafafa;
-	--surface-100: #f4f4f5;
-	--surface-200: #e4e4e7;
-	--surface-300: #d4d4d8;
-	--surface-400: #a1a1aa;
-	--surface-500: #71717a;
-	--surface-600: #52525b;
-	--surface-700: #3f3f46;
-	--surface-800: #27272a;
-	--surface-900: #18181b;
-	--gray-50: #fafafa;
-	--gray-100: #f4f4f5;
-	--gray-200: #e4e4e7;
-	--gray-300: #d4d4d8;
-	--gray-400: #a1a1aa;
-	--gray-500: #71717a;
-	--gray-600: #52525b;
-	--gray-700: #3f3f46;
-	--gray-800: #27272a;
-	--gray-900: #18181b;
-	--content-padding: #{$panelContentPadding};
-	--inline-spacing: #{$inlineSpacing};
-	--border-radius: #{$borderRadius};
-	--surface-ground: #fafafa;
-	--surface-section: #ffffff;
-	--surface-card: #ffffff;
-	--surface-overlay: #ffffff;
-	--surface-border: #e5e7eb;
-	--surface-hover: #f4f4f5;
-	--focus-ring: #{$focusShadow};
-	--maskbg: #{$maskBg};
-	--highlight-bg: #{$highlightBg};
-	--highlight-text-color: #{$highlightTextColor};
-	color-scheme: light;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --surface-a: #{$shade000};
+  --surface-b: #{$shade100};
+  --surface-c: #{$shade200};
+  --surface-d: #{$shade300};
+  --surface-e: #{$shade000};
+  --surface-f: #{$shade000};
+  --text-color: #{$shade700};
+  --text-color-secondary: #{$shade600};
+  --primary-color: #{$primaryColor};
+  --primary-color-text: #{$primaryTextColor};
+  --surface-0: #ffffff;
+  --surface-50: #fafafa;
+  --surface-100: #f4f4f5;
+  --surface-200: #e4e4e7;
+  --surface-300: #d4d4d8;
+  --surface-400: #a1a1aa;
+  --surface-500: #71717a;
+  --surface-600: #52525b;
+  --surface-700: #3f3f46;
+  --surface-800: #27272a;
+  --surface-900: #18181b;
+  --gray-50: #fafafa;
+  --gray-100: #f4f4f5;
+  --gray-200: #e4e4e7;
+  --gray-300: #d4d4d8;
+  --gray-400: #a1a1aa;
+  --gray-500: #71717a;
+  --gray-600: #52525b;
+  --gray-700: #3f3f46;
+  --gray-800: #27272a;
+  --gray-900: #18181b;
+  --content-padding: #{$panelContentPadding};
+  --inline-spacing: #{$inlineSpacing};
+  --border-radius: #{$borderRadius};
+  --surface-ground: #fafafa;
+  --surface-section: #ffffff;
+  --surface-card: #ffffff;
+  --surface-overlay: #ffffff;
+  --surface-border: #e5e7eb;
+  --surface-hover: #f4f4f5;
+  --focus-ring: #{$focusShadow};
+  --maskbg: #{$maskBg};
+  --highlight-bg: #{$highlightBg};
+  --highlight-text-color: #{$highlightTextColor};
+  color-scheme: light;
 }
