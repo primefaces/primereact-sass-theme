@@ -1,25 +1,46 @@
 @use 'sass:math';
 
+// core
+.p-rating {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.p-rating-item {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.p-rating.p-readonly .p-rating-item {
+    cursor: default;
+}
+
+// theme
 .p-rating {
     gap: $inlineSpacing;
 
     .p-rating-item {
+        outline-color: transparent;
+        border-radius: 50%;
+        
         .p-rating-icon {
             color: $ratingStarIconOffColor;
             transition: $formElementTransition;   
             font-size: $ratingIconFontSize;
-            
+
             &.p-icon {
                 width: $ratingIconFontSize;
-                height: $ratingIconFontSize;   
+                height: $ratingIconFontSize;
             }
-
+    
             &.p-rating-cancel {
                 color: $ratingCancelIconColor;
             }
         }
 
-        &:focus {
+        &.p-focus {
             @include focused();
         }
 
