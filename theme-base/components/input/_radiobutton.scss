@@ -1,9 +1,13 @@
 //core
 .p-radiobutton {
+    position: relative;
     display: inline-flex;
-    cursor: pointer;
     user-select: none;
     vertical-align: bottom;
+}
+
+.p-radiobutton-input {
+    cursor: pointer;
 }
 
 .p-radiobutton-box {
@@ -20,7 +24,7 @@
     visibility: hidden;
 }
 
-.p-radiobutton-box.p-highlight .p-radiobutton-icon {
+.p-radiobutton.p-highlight .p-radiobutton-icon {
     transform: translateZ(0) scale(1.0, 1.0);
     visibility: visible;
 }
