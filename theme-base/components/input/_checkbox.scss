@@ -1,6 +1,31 @@
+//core
+.p-checkbox {
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.p-checkbox.p-checkbox-disabled {
+    cursor: auto;
+}
+
+.p-checkbox-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+
+// theme
 .p-checkbox {
     width: $checkboxWidth;
     height: $checkboxHeight;
+
+    .p-checkbox-input {
+        border: $checkboxBorder;
+        border-radius: $borderRadius;
+    }
 
     .p-checkbox-box {
         border: $checkboxBorder;
@@ -10,6 +35,7 @@
         color: $textColor;
         border-radius: $borderRadius;
         transition: $formElementTransition;
+        outline-color: transparent;
 
         .p-checkbox-icon {
             transition-duration: $transitionDuration;
@@ -21,33 +47,56 @@
                 height: $checkboxIconFontSize;
             }
         }
+    }
 
-        &.p-highlight {
-            border-color: $checkboxActiveBorderColor;
-            background: $checkboxActiveBg;
+    .p-checkbox-box {
+        border: $checkboxBorder;
+        background: $inputBg;
+        width: $checkboxWidth;
+        height: $checkboxHeight;
+        color: $textColor;
+        border-radius: $borderRadius;
+        transition: $formElementTransition;
+        outline-color: transparent;
 
-            &:not(.p-disabled):hover {
-                border-color: $checkboxActiveHoverBorderColor;
-                background: $checkboxActiveHoverBg;
-                color: $checkboxIconActiveHoverColor;
+        .p-checkbox-icon {
+            transition-duration: $transitionDuration;
+            color: $checkboxIconActiveColor;
+            font-size: $checkboxIconFontSize;
+
+            &.p-icon {
+                width: $checkboxIconFontSize;
+                height: $checkboxIconFontSize;
             }
         }
     }
+    
 
-    &:not(.p-checkbox-disabled) {
+    &.p-highlight {
         .p-checkbox-box {
-            &:hover {
+            border-color: $checkboxActiveBorderColor;
+            background: $checkboxActiveBg;
+        }  
+    }
+
+    &:not(.p-disabled) {
+        &:has(.p-checkbox-input:hover) {
+            .p-checkbox-box {
                 border-color: $inputHoverBorderColor;
             }
 
-            &.p-focus {
-                @include focused-input();
+            &.p-highlight {
+                .p-checkbox-box {
+                    border-color: $checkboxActiveHoverBorderColor;
+                    background: $checkboxActiveHoverBg;
+                    color: $checkboxIconActiveHoverColor;
+                }
             }
+        }
 
-            &.p-highlight:hover {    
-                border-color: $checkboxActiveHoverBorderColor;
-                background: $checkboxActiveHoverBg;
-                color: $checkboxIconActiveHoverColor;
+        &:has(.p-checkbox-input:focus-visible) {
+            .p-checkbox-box {
+                @include focused-input();
             }
         }
     }
@@ -55,26 +104,56 @@
     &.p-invalid > .p-checkbox-box {
         @include invalid-input();
     }
+
+    &.p-variant-filled {
+        .p-checkbox-box {
+            background-color: $inputFilledBg;
+        }
+
+        &.p-highlight {
+            .p-checkbox-box {
+                background: $checkboxActiveBg;
+            }
+        }
+
+        &:not(.p-disabled) {
+            &:has(.p-checkbox-input:hover) {
+                .p-checkbox-box {
+                    background-color: $inputFilledHoverBg;
+                }
+    
+                &.p-highlight {
+                    .p-checkbox-box {
+                        background: $checkboxActiveHoverBg;
+                    }
+                }
+            }
+        }
+    }
 }
 
 .p-input-filled {
     .p-checkbox {
         .p-checkbox-box {
             background-color: $inputFilledBg;
+        }
 
-            &.p-highlight {
+        &.p-highlight {
+            .p-checkbox-box {
                 background: $checkboxActiveBg;
             }
         }
 
-        &:not(.p-checkbox-disabled) {
-            .p-checkbox-box {
-                &:hover {
+        &:not(.p-disabled) {
+            &:has(.p-checkbox-input:hover) {
+                .p-checkbox-box {
                     background-color: $inputFilledHoverBg;
                 }
-        
-                &.p-highlight:hover {    
-                    background: $checkboxActiveHoverBg;
+
+                &.p-highlight {
+                    .p-checkbox-box {
+                        background: $checkboxActiveHoverBg;
+                    }
                 }
             }
         }
@@ -89,4 +168,4 @@
             }
         }
     }
-} 
+}
