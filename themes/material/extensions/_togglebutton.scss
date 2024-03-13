@@ -1,11 +1,17 @@
-.p-togglebutton.p-button {
-    &:focus {
-        background: $toggleButtonActiveBg;
-        border-color: $toggleButtonActiveBorderColor;
+.p-togglebutton {
+    &:not(.p-disabled) {
+        &:has(.p-togglebutton-input:focus-visible) {
+            .p-button {
+                background: $toggleButtonActiveBg;
+                border-color: $toggleButtonActiveBorderColor;
+            }
 
-        &.p-highlight {
-            background: $toggleButtonActiveHoverBg;
-            border-color: $toggleButtonActiveHoverBorderColor;
+            &.p-highlight {
+                .p-button {
+                    background: $toggleButtonActiveHoverBg;
+                    border-color: $toggleButtonActiveHoverBorderColor;
+                }
+            }
         }
     }
 }
