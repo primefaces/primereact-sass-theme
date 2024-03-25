@@ -20,6 +20,14 @@
     "license": "MIT",
     "bugs": {
       "url": "https://github.com/primefaces/primereact-sass-theme/issues"
+    },
+    "scripts": {
+      "sass-watch": "sass src/assets:src/assets --watch --no-source-map",
+      "sass": "sass .:build --no-source-map",
+      "build": "npm run sass"
+    },
+    "devDependencies": {
+      "sass": "latest"
     }
   }
   
