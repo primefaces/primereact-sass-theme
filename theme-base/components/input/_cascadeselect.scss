@@ -3,6 +3,7 @@
     border: $inputBorder;
     transition: $formElementTransition;
     border-radius: $borderRadius;
+    outline-color: transparent;
 
     &:not(.p-disabled):hover {
         border-color: $inputHoverBorderColor;
@@ -10,6 +11,18 @@
 
     &:not(.p-disabled).p-focus {
         @include focused-input();
+    }
+
+    &.p-variant-filled {
+        background-color: $inputFilledBg;
+
+        &:enabled:hover {
+            background-color: $inputFilledHoverBg;
+        }
+
+        &:enabled:focus {
+            background-color: $inputFilledFocusBg;
+        }
     }
 
     .p-cascadeselect-label {
@@ -58,46 +71,37 @@
             transition: $listItemTransition;
             border-radius: $inputListItemBorderRadius;
 
-            .p-cascadeselect-item-content {
-                padding: $inputListItemPadding;
+            &:first-child {
+                margin-top: 0;
+            }
 
-                &:focus {
-                    @include focused-listitem();
-                }
+            &:last-child {
+                margin-bottom: 0;
             }
 
             &.p-highlight {
                 color: $highlightTextColor;
                 background: $highlightBg;
+
+                &.p-focus {
+                    background: $highlightFocusBg;
+                }
             }
 
-            &:not(.p-highlight):not(.p-disabled):hover {
-                color: $inputListItemTextHoverColor;
-                background: $inputListItemHoverBg;
+            &:not(.p-highlight):not(.p-disabled) {
+                &.p-focus {
+                    color: $inputListItemTextHoverColor;
+                    background: $inputListItemHoverBg;
+                }
+            }
+
+            .p-cascadeselect-item-content {
+                padding: $inputListItemPadding;
             }
 
             .p-cascadeselect-group-icon {
                 font-size: $menuitemSubmenuIconFontSize;
-
-                &.p-icon {
-                    width: $menuitemSubmenuIconFontSize;
-                    height: $menuitemSubmenuIconFontSize;
-                }
             }
-        }
-    }
-}
-
-.p-input-filled {
-    .p-cascadeselect {
-        background: $inputFilledBg;
-
-        &:not(.p-disabled):hover {
-            background-color: $inputFilledHoverBg;
-        }
-    
-        &:not(.p-disabled).p-focus {
-            background-color: $inputFilledFocusBg;
         }
     }
 }
