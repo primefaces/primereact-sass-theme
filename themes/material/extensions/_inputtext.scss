@@ -1,0 +1,5 @@
+.p-inputtext {
+    &.p-variant-filled {
+        @include filled-input();
+    }
+}
