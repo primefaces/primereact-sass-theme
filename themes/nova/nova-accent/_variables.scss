@@ -5,6 +5,7 @@ $primaryTextColor: #ffffff !default;
 
 $highlightBg: #e02365 !default;
 $highlightTextColor: #ffffff !default;
+$highlightFocusBg: darken(#e02365, 0.08) !default;
 
 $containerHeaderBorderColor: $primaryColor !default;
 $containerHeaderBorder: 1px solid $containerHeaderBorderColor !default;
@@ -13,4 +14,4 @@ $containerHeaderTextColor: $primaryTextColor !default;
 $containerHeaderIconColor: $primaryTextColor !default;
 $containerHeaderIconHoverColor: lighten($primaryColor, 25%) !default;
 
-@import '../_variables';
+@import "../_variables";

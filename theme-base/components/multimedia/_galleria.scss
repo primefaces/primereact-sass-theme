@@ -14,7 +14,7 @@
             &.p-icon {
                 width: $galleriaCloseIconFontSize;
                 height: $galleriaCloseIconFontSize;
-             }
+            }
         }
 
         &:hover {
@@ -141,7 +141,7 @@
         .p-galleria-thumbnail-item-content {
             transition: $listItemTransition;
             
-            &:focus {
+            &:focus-visible {
                 @include focused();
             }
         }
