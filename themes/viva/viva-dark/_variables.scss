@@ -849,8 +849,7 @@ $imagePreviewActionIconFontSize: 1.5rem !default;
 $imagePreviewActionIconBorderRadius: 50% !default;
 
 :root {
-  font-family: Poppins, sans-serif;
-  --font-family: Poppins, sans-serif;
+	--font-family: #{$fontFamily};
   --surface-a: #{$shade800};
   --surface-b: #{$shade900};
   --surface-c: #{$hoverBg};
