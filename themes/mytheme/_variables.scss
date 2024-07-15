@@ -1,20 +1,20 @@
-$primaryColor: #2196F3;
-$primaryDarkColor: #1E88E5;
-$primaryDarkerColor: #1976D2;
-$primaryTextColor: #ffffff;
+$primaryColor: #245887;
+$primaryDarkColor: #153451;
+$primaryDarkerColor: #10273D;
+$primaryTextColor: #FFFFFF;
 
 $colors: (
-    "blue": #2196F3,
-    "green": #4caf50,
-    "yellow": #FBC02D,
-    "cyan": #00BCD4,
-    "pink": #E91E63,
-    "indigo": #3F51B5,
-    "teal": #009688,
-    "orange": #F57C00,
-    "bluegray": #607D8B,
-    "purple": #9C27B0,
-    "red": #FF4032,
+    "blue": $primaryColor,
+    "green": #038249,
+    "yellow": #9C27B0, // crazy color - fix when it shows up
+    "cyan": #9C27B0, // crazy color - fix when it shows up
+    "pink": #9C27B0, // crazy color - fix when it shows up
+    "indigo": #9C27B0, // crazy color - fix when it shows up
+    "teal": #9C27B0, // crazy color - fix when it shows up
+    "orange": #F79009,
+    "bluegray": #4E5F74,
+    "purple": #9C27B0, // crazy color - fix when it shows up
+    "red": #D92D20,
     "primary": $primaryColor
 );
 
@@ -31,51 +31,56 @@ $colors: (
 @import './variables/_misc';
 
 :root {
-    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    --surface-a:#ffffff;
-    --surface-b:#f8f9fa;
-    --surface-c:#e9ecef;
-    --surface-d:#dee2e6;
-    --surface-e:#ffffff;
-    --surface-f:#ffffff;
-    --text-color:#495057;
-    --text-color-secondary:#6c757d;
-    --primary-color:#2196F3;
-    --primary-color-text:#ffffff;
+    font-family: "Ubuntu", sans-serif;
+    --font-family: "Ubuntu", sans-serif;
+    --surface-a: #ffffff; // default
+    --surface-b: #EFF2F5; // --surface-50
+    --surface-c: #E0E5EB; // --surface-100
+    --surface-d: #D3DBE3; // --surface-200
+    --surface-e: #ffffff; // default
+    --surface-f: #ffffff; // default
+    --text-color: #9C27B0; // crazy color - fix when it shows up
+    --text-color-secondary: #9C27B0; // crazy color - fix when it shows up
+    --primary-color: #9C27B0; // crazy color - fix when it shows up
+    --primary-color-text: #9C27B0; // crazy color - fix when it shows up
     --surface-0: #ffffff;
-    --surface-50: #FAFAFA;
-    --surface-100: #F5F5F5;
-    --surface-200: #EEEEEE;
-    --surface-300: #E0E0E0;
-    --surface-400: #BDBDBD;
-    --surface-500: #9E9E9E;
-    --surface-600: #757575;
-    --surface-700: #616161;
-    --surface-800: #424242;
-    --surface-900: #212121;
-    --gray-50: #FAFAFA;
-    --gray-100: #F5F5F5;
-    --gray-200: #EEEEEE;
-    --gray-300: #E0E0E0;
-    --gray-400: #BDBDBD;
-    --gray-500: #9E9E9E;
-    --gray-600: #757575;
-    --gray-700: #616161;
-    --gray-800: #424242;
-    --gray-900: #212121;
+    --surface-50: #EFF2F5;
+    --surface-100: #E0E5EB;
+    --surface-200: #D3DBE3;
+    --surface-300: #94A4B8;
+    --surface-400: #5E7692;
+    --surface-500: #4E5F74;
+    --surface-600: #435365;
+    --surface-700: #303C4B;
+    --surface-800: #202832;
+    --surface-900: #14191F;
+    --gray-50: #EFF2F5;
+    --gray-100: #E0E5EB;
+    --gray-200: #D3DBE3;
+    --gray-300: #94A4B8;
+    --gray-400: #5E7692;
+    --gray-500: #4E5F74;
+    --gray-600: #435365;
+    --gray-700: #303C4B;
+    --gray-800: #202832;
+    --gray-900: #14191F;
     --content-padding:#{$panelContentPadding};
     --inline-spacing:#{$inlineSpacing};
     --border-radius:#{$borderRadius};
-    --surface-ground:#f8f9fa;
-    --surface-section:#ffffff;
-    --surface-card:#ffffff;
-    --surface-overlay:#ffffff;
-    --surface-border:#dee2e6;
-    --surface-hover:#e9ecef;
+    --surface-ground: #f8f9fa;
+    --surface-section: #ffffff;
+    --surface-card: #ffffff;
+    --surface-overlay: #ffffff;
+    --surface-border: #dee2e6;
+    --surface-hover: #e9ecef;
     --focus-ring: #{$focusShadow};
     --maskbg: #{$maskBg};
     --highlight-bg: #{$highlightBg};
-    --highlight-text-color: #{$highlightTextColor};
+    --highlight-text-color: #9C27B0; // crazy color - fix when it shows up
     color-scheme: light;
 }
+
+// fix for Chip - sass compilation error
+$shade500: #4E5F74 !default; 
+$chipFocusBg: $shade500 !default;
+$chipFocusTextColor: $textColor !default;
