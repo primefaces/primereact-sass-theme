@@ -4530,7 +4530,7 @@
   .p-panel .p-panel-footer {
     padding: 0.5rem 1rem;
     border: 1px solid #dee2e6;
-    background: #bb1313;
+    background: #ffffff;
     color: #495057;
     border-top: 0 none;
   }
@@ -4851,7 +4851,6 @@
     border: 0 none;
   }
   .p-dialog .p-dialog-header {
-    border-bottom: 1px solid #dee2e6;
     background: #ffffff;
     color: #495057;
     padding: 1.5rem;
@@ -4886,7 +4885,7 @@
     margin-right: 0;
   }
   .p-dialog .p-dialog-content {
-    background: #F9FAFB;
+    background: #ffffff;
     color: #495057;
     padding: 0 1.5rem;
   }
