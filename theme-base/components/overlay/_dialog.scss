@@ -4,7 +4,6 @@
     border: $overlayContentBorder;
 
     .p-dialog-header {
-        border-bottom: $dialogHeaderBorder;
         background: $dialogHeaderBg;
         color: $dialogHeaderTextColor;
         padding: $dialogHeaderPadding;
@@ -27,7 +26,7 @@
     }
 
     .p-dialog-content {
-        background: $overlayContentBg;
+        background: #ffffff;
         color: $panelContentTextColor;
         padding: $dialogContentPadding;
 
