@@ -4,11 +4,11 @@ $messageMargin: 1rem 0;
 
 /// Padding of a message
 /// @group message
-$messagePadding: 1rem 1.5rem;
+$messagePadding: 1.25rem 1.75rem;
 
 /// Border width of a message
 /// @group message
-$messageBorderWidth: 0 0 0 4px;
+$messageBorderWidth: 0 0 0 6px;
 
 /// Font size of a message icon
 /// @group message
@@ -40,7 +40,7 @@ $inlineMessageTextFontSize: 1rem;
 
 /// Border width of an inline message text
 /// @group message
-$inlineMessageBorderWidth: 1px;
+$inlineMessageBorderWidth: 0px;
 
 /// Font size of a toast message icon
 /// @group message
@@ -60,15 +60,15 @@ $toastPadding: 1rem;
 
 /// Border width of a toast message
 /// @group message
-$toastBorderWidth: 0 0 0 4px;
+$toastBorderWidth: 0 0 0 6px;
 
 /// Box shadow of a toast message
 /// @group message
-$toastShadow: 0 3px 14px 0 rgba(0, 0, 0, 0.3);
+$toastShadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
 
 /// Opacity of a toast message
 /// @group message
-$toastOpacity: .9;
+$toastOpacity: 1;
 
 /// Font weight of a toast message title text
 /// @group message
@@ -80,64 +80,64 @@ $toastDetailMargin: $inlineSpacing 0 0 0;
 
 /// Background of an info message
 /// @group message
-$infoMessageBg: #039BE5;
+$infoMessageBg: rgba(219, 234, 254, 0.7);
 
 /// Border of an info message
 /// @group message
-$infoMessageBorder: solid #027cb7;
+$infoMessageBorder: solid #3b82f6;
 
 /// Text color of an info message
 /// @group message
-$infoMessageTextColor: #ffffff;
+$infoMessageTextColor: #3b82f6;
 
 /// Icon color of an info message
 /// @group message
-$infoMessageIconColor: #ffffff;
+$infoMessageIconColor: #3b82f6;
 
 /// Background of a success message
 /// @group message
-$successMessageBg: #43A047;
+$successMessageBg: rgba(228, 248, 240, 0.7);
 
 /// Border of a success message
 /// @group message
-$successMessageBorder: 0 none;
+$successMessageBorder: solid #1ea97c;
 
 /// Text color of a success message
 /// @group message
-$successMessageTextColor: #ffffff;
+$successMessageTextColor: #1ea97c;
 
 /// Icon color of a success message
 /// @group message
-$successMessageIconColor: #ffffff;
+$successMessageIconColor: #1ea97c;
 
 /// Background of a warning message
 /// @group message
-$warningMessageBg: #FFB300;
+$warningMessageBg: rgba(255, 242, 226, 0.7);
 
 /// Border of a warning message
 /// @group message
-$warningMessageBorder: 0 none;
+$warningMessageBorder: solid #cc8925;
 
 /// Text color of a warning message
 /// @group message
-$warningMessageTextColor: $textColor;
+$warningMessageTextColor: #cc8925;
 
 /// Icon color of a warning message
 /// @group message
-$warningMessageIconColor: $textColor;
+$warningMessageIconColor: #cc8925;
 
 /// Background of an error message
 /// @group message
-$errorMessageBg: #E53935;
+$errorMessageBg: rgba(255, 231, 230, 0.7);
 
 /// Border of an error message
 /// @group message
-$errorMessageBorder: 0 none;
+$errorMessageBorder: solid #ff5757;
 
 /// Text color of an error message
 /// @group message
-$errorMessageTextColor: #ffffff;
+$errorMessageTextColor: #ff5757;
 
 /// Icon color of an error message
 /// @group message
-$errorMessageIconColor: #ffffff;
+$errorMessageIconColor: #ff5757;
