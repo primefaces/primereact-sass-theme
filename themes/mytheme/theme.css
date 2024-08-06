@@ -6317,40 +6317,40 @@
     border-radius: 6px;
   }
   .p-inline-message.p-inline-message-info {
-    background: #039BE5;
-    border: solid #027cb7;
-    border-width: 1px;
-    color: #ffffff;
+    background: rgba(219, 234, 254, 0.7);
+    border: solid #3b82f6;
+    border-width: 0px;
+    color: #3b82f6;
   }
   .p-inline-message.p-inline-message-info .p-inline-message-icon {
-    color: #ffffff;
+    color: #3b82f6;
   }
   .p-inline-message.p-inline-message-success {
-    background: #43A047;
-    border: 0 none;
-    border-width: 1px;
-    color: #ffffff;
+    background: rgba(228, 248, 240, 0.7);
+    border: solid #1ea97c;
+    border-width: 0px;
+    color: #1ea97c;
   }
   .p-inline-message.p-inline-message-success .p-inline-message-icon {
-    color: #ffffff;
+    color: #1ea97c;
   }
   .p-inline-message.p-inline-message-warn {
-    background: #FFB300;
-    border: 0 none;
-    border-width: 1px;
-    color: #495057;
+    background: rgba(255, 242, 226, 0.7);
+    border: solid #cc8925;
+    border-width: 0px;
+    color: #cc8925;
   }
   .p-inline-message.p-inline-message-warn .p-inline-message-icon {
-    color: #495057;
+    color: #cc8925;
   }
   .p-inline-message.p-inline-message-error {
-    background: #E53935;
-    border: 0 none;
-    border-width: 1px;
-    color: #ffffff;
+    background: rgba(255, 231, 230, 0.7);
+    border: solid #ff5757;
+    border-width: 0px;
+    color: #ff5757;
   }
   .p-inline-message.p-inline-message-error .p-inline-message-icon {
-    color: #ffffff;
+    color: #ff5757;
   }
   .p-inline-message .p-inline-message-icon {
     font-size: 1rem;
@@ -6371,7 +6371,7 @@
     border-radius: 6px;
   }
   .p-message .p-message-wrapper {
-    padding: 1rem 1.5rem;
+    padding: 1.25rem 1.75rem;
   }
   .p-message .p-message-close {
     width: 2rem;
@@ -6389,52 +6389,52 @@
     box-shadow: 0 0 0 0.2rem #bfd1f6;
   }
   .p-message.p-message-info {
-    background: #039BE5;
-    border: solid #027cb7;
-    border-width: 0 0 0 4px;
-    color: #ffffff;
+    background: rgba(219, 234, 254, 0.7);
+    border: solid #3b82f6;
+    border-width: 0 0 0 6px;
+    color: #3b82f6;
   }
   .p-message.p-message-info .p-message-icon {
-    color: #ffffff;
+    color: #3b82f6;
   }
   .p-message.p-message-info .p-message-close {
-    color: #ffffff;
+    color: #3b82f6;
   }
   .p-message.p-message-success {
-    background: #43A047;
-    border: 0 none;
-    border-width: 0 0 0 4px;
-    color: #ffffff;
+    background: rgba(228, 248, 240, 0.7);
+    border: solid #1ea97c;
+    border-width: 0 0 0 6px;
+    color: #1ea97c;
   }
   .p-message.p-message-success .p-message-icon {
-    color: #ffffff;
+    color: #1ea97c;
   }
   .p-message.p-message-success .p-message-close {
-    color: #ffffff;
+    color: #1ea97c;
   }
   .p-message.p-message-warn {
-    background: #FFB300;
-    border: 0 none;
-    border-width: 0 0 0 4px;
-    color: #495057;
+    background: rgba(255, 242, 226, 0.7);
+    border: solid #cc8925;
+    border-width: 0 0 0 6px;
+    color: #cc8925;
   }
   .p-message.p-message-warn .p-message-icon {
-    color: #495057;
+    color: #cc8925;
   }
   .p-message.p-message-warn .p-message-close {
-    color: #495057;
+    color: #cc8925;
   }
   .p-message.p-message-error {
-    background: #E53935;
-    border: 0 none;
-    border-width: 0 0 0 4px;
-    color: #ffffff;
+    background: rgba(255, 231, 230, 0.7);
+    border: solid #ff5757;
+    border-width: 0 0 0 6px;
+    color: #ff5757;
   }
   .p-message.p-message-error .p-message-icon {
-    color: #ffffff;
+    color: #ff5757;
   }
   .p-message.p-message-error .p-message-close {
-    color: #ffffff;
+    color: #ff5757;
   }
   .p-message .p-message-text {
     font-size: 1rem;
@@ -6455,16 +6455,16 @@
     margin-left: 0.5rem;
   }
   .p-toast {
-    opacity: 0.9;
+    opacity: 1;
   }
   .p-toast .p-toast-message {
     margin: 0 0 1rem 0;
-    box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
     border-radius: 6px;
   }
   .p-toast .p-toast-message .p-toast-message-content {
     padding: 1rem;
-    border-width: 0 0 0 4px;
+    border-width: 0 0 0 6px;
   }
   .p-toast .p-toast-message .p-toast-message-content .p-toast-message-text {
     margin: 0 0 0 1rem;
@@ -6498,44 +6498,44 @@
     box-shadow: 0 0 0 0.2rem #bfd1f6;
   }
   .p-toast .p-toast-message.p-toast-message-info {
-    background: #039BE5;
-    border: solid #027cb7;
-    border-width: 0 0 0 4px;
-    color: #ffffff;
+    background: rgba(219, 234, 254, 0.7);
+    border: solid #3b82f6;
+    border-width: 0 0 0 6px;
+    color: #3b82f6;
   }
   .p-toast .p-toast-message.p-toast-message-info .p-toast-message-icon,
   .p-toast .p-toast-message.p-toast-message-info .p-toast-icon-close {
-    color: #ffffff;
+    color: #3b82f6;
   }
   .p-toast .p-toast-message.p-toast-message-success {
-    background: #43A047;
-    border: 0 none;
-    border-width: 0 0 0 4px;
-    color: #ffffff;
+    background: rgba(228, 248, 240, 0.7);
+    border: solid #1ea97c;
+    border-width: 0 0 0 6px;
+    color: #1ea97c;
   }
   .p-toast .p-toast-message.p-toast-message-success .p-toast-message-icon,
   .p-toast .p-toast-message.p-toast-message-success .p-toast-icon-close {
-    color: #ffffff;
+    color: #1ea97c;
   }
   .p-toast .p-toast-message.p-toast-message-warn {
-    background: #FFB300;
-    border: 0 none;
-    border-width: 0 0 0 4px;
-    color: #495057;
+    background: rgba(255, 242, 226, 0.7);
+    border: solid #cc8925;
+    border-width: 0 0 0 6px;
+    color: #cc8925;
   }
   .p-toast .p-toast-message.p-toast-message-warn .p-toast-message-icon,
   .p-toast .p-toast-message.p-toast-message-warn .p-toast-icon-close {
-    color: #495057;
+    color: #cc8925;
   }
   .p-toast .p-toast-message.p-toast-message-error {
-    background: #E53935;
-    border: 0 none;
-    border-width: 0 0 0 4px;
-    color: #ffffff;
+    background: rgba(255, 231, 230, 0.7);
+    border: solid #ff5757;
+    border-width: 0 0 0 6px;
+    color: #ff5757;
   }
   .p-toast .p-toast-message.p-toast-message-error .p-toast-message-icon,
   .p-toast .p-toast-message.p-toast-message-error .p-toast-icon-close {
-    color: #ffffff;
+    color: #ff5757;
   }
   .p-galleria .p-galleria-close {
     margin: 0.5rem;
