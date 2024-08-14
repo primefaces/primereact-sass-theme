@@ -18,8 +18,10 @@
 
         .p-dialog-header-icon {
             @include action-icon();
-            margin-right: $inlineSpacing;
-            
+            & {
+                margin-right: $inlineSpacing;
+            }
+
             &:last-child {
                 margin-right: 0;
             }            
