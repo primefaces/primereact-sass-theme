@@ -251,7 +251,9 @@
 
                 .p-treetable-toggler {
                     @include action-icon();
-                    margin-right: $inlineSpacing;
+                    & {
+                        margin-right: $inlineSpacing;
+                    }
                     
                     & + .p-checkbox {
                         margin-right: $inlineSpacing;
