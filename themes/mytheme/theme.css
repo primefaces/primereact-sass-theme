@@ -277,7 +277,7 @@
   .p-component {
     font-family: var(--font-family);
     font-feature-settings: var(--font-feature-settings, normal);
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: normal;
   }
   .p-component-overlay {
@@ -303,7 +303,7 @@
   .p-link {
     font-family: var(--font-family);
     font-feature-settings: var(--font-feature-settings, normal);
-    font-size: 1rem;
+    font-size: 14px;
     border-radius: 6px;
   }
   .p-link:focus-visible {
@@ -484,7 +484,7 @@
     margin-right: 0.5rem;
   }
   .p-datepicker table {
-    font-size: 1rem;
+    font-size: 14px;
     margin: 0.5rem 0;
   }
   .p-datepicker table th {
@@ -2258,7 +2258,7 @@
     background: #245887;
     border: 1px solid #245887;
     padding: 0.5rem 1rem;
-    font-size: 1rem;
+    font-size: 14px;
     transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
     border-radius: 6px;
   }
@@ -2347,9 +2347,9 @@
   }
   .p-button .p-badge {
     margin-left: 0.5rem;
-    min-width: 1rem;
-    height: 1rem;
-    line-height: 1rem;
+    min-width: 14px;
+    height: 14px;
+    line-height: 14px;
     color: #245887;
     background-color: #FFFFFF;
   }
@@ -2372,14 +2372,14 @@
     height: 2.357rem;
   }
   .p-button.p-button-sm {
-    font-size: 0.875rem;
+    font-size: 12.25px;
     padding: 0.4375rem 0.875rem;
   }
   .p-button.p-button-sm .p-button-icon {
     font-size: 0.875rem;
   }
   .p-button.p-button-lg {
-    font-size: 1.25rem;
+    font-size: 17.5px;
     padding: 0.625rem 1.25rem;
   }
   .p-button.p-button-lg .p-button-icon {
@@ -2787,14 +2787,14 @@
     border-radius: 2rem;
   }
   .p-splitbutton.p-button-sm > .p-button {
-    font-size: 0.875rem;
+    font-size: 12.25px;
     padding: 0.4375rem 0.875rem;
   }
   .p-splitbutton.p-button-sm > .p-button .p-button-icon {
     font-size: 0.875rem;
   }
   .p-splitbutton.p-button-lg > .p-button {
-    font-size: 1.25rem;
+    font-size: 17.5px;
     padding: 0.625rem 1.25rem;
   }
   .p-splitbutton.p-button-lg > .p-button.p-button-icon-only {
