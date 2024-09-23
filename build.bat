@@ -37,11 +37,11 @@ copy build\themes\luna\luna-pink\theme.css %RESOURCES%\luna-pink
 copy build\themes\material\material-dark\standard\deeppurple\theme.css %RESOURCES%\md-dark-deeppurple
 copy build\themes\material\material-dark\standard\indigo\theme.css %RESOURCES%\md-dark-indigo
 copy build\themes\material\material-light\standard\deeppurple\theme.css %RESOURCES%\md-light-deeppurple
-copy build\themes\material\material-light\standard\deeppurple\theme.css %RESOURCES%\md-light-indigo
+copy build\themes\material\material-light\standard\indigo\theme.css %RESOURCES%\md-light-indigo
 copy build\themes\material\material-dark\compact\deeppurple\theme.css %RESOURCES%\mdc-dark-deeppurple
 copy build\themes\material\material-dark\compact\indigo\theme.css %RESOURCES%\mdc-dark-indigo
 copy build\themes\material\material-light\compact\deeppurple\theme.css %RESOURCES%\mdc-light-deeppurple
-copy build\themes\material\material-light\compact\deeppurple\theme.css %RESOURCES%\mdc-light-indigo
+copy build\themes\material\material-light\compact\indigo\theme.css %RESOURCES%\mdc-light-indigo
 copy build\themes\mira\theme.css %RESOURCES%\mira
 copy build\themes\nano\theme.css %RESOURCES%\nano
 copy build\themes\nova\nova\theme.css %RESOURCES%\nova
