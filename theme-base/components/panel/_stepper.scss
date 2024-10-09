@@ -33,7 +33,6 @@
       }
 
       .p-stepper-title {
-        margin-left: $inlineSpacing;
         color: $stepsItemTextColor;
         font-weight: $stepsItemActiveFontWeight;
         transition: $actionIconTransition;
@@ -41,6 +40,38 @@
 
       &:not(.p-disabled):focus-visible {
         @include focused();
+      }
+    }
+
+    &.p-stepper-header-top {
+      .p-stepper-title {
+        margin-bottom: $inlineSpacing;
+      }
+
+      .p-stepper-separator {
+        margin-bottom: 1rem;
+      }
+    }
+
+    &.p-stepper-header-right {
+      .p-stepper-title {
+        margin-left: $inlineSpacing;
+      }
+    }
+
+    &.p-stepper-header-left {
+      .p-stepper-title {
+        margin-right: $inlineSpacing;
+      }
+    }
+
+    &.p-stepper-header-bottom {
+      .p-stepper-title {
+        margin-top: $inlineSpacing;
+      }
+
+      .p-stepper-separator {
+        margin-top: 1rem;
       }
     }
 
@@ -109,6 +140,10 @@
       .p-stepper-content {
         width: 100%;
         padding-left: calc($inlineSpacing * 2);
+      }
+
+      .p-stepper-title {
+        margin-left: $inlineSpacing;
       }
 
       .p-stepper-separator {
