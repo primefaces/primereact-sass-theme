@@ -856,10 +856,7 @@ $imagePreviewActionIconFontSize: 1.5rem !default;
 $imagePreviewActionIconBorderRadius: 50% !default;
 
 :root {
-	font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica,
-		Arial, "Lucida Grande", sans-serif;
-	--font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica,
-		Arial, "Lucida Grande", sans-serif;
+	--font-family: #{$fontFamily};
 	--surface-a: #1e1e1e;
 	--surface-b: #121212;
 	--surface-c: hsla(0, 0%, 100%, 0.04);
