@@ -22,6 +22,11 @@
         }
     }
 
+    &:has(> .p-panel-footer) .p-panel-content {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
     .p-panel-content {
         padding: $panelContentPadding;
         border: $panelContentBorder;
