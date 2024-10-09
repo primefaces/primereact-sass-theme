@@ -3,7 +3,9 @@
         .p-carousel-prev,
         .p-carousel-next {
             @include action-icon();
-            margin: $inlineSpacing;
+            & {
+                margin: $inlineSpacing;
+            }
         }
     }
 
