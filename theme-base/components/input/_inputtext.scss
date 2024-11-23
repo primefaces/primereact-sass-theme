@@ -72,6 +72,10 @@
     padding-right: nth($inputPadding, 2) * 2 + $primeIconFontSize;
 }
 
+.p-icon-field-right > .p-autocomplete .p-inputtext {
+    padding-right: nth($inputPadding, 2) * 2 + $primeIconFontSize;
+}
+
 @include placeholder {
     color: $inputPlaceholderTextColor;
 }
