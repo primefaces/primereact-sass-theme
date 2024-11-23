@@ -60,6 +60,10 @@
     padding-left: nth($inputPadding, 2) * 2 + $primeIconFontSize;
 }
 
+.p-icon-field-left > .p-autocomplete .p-inputtext {
+    padding-left: nth($inputPadding, 2) * 2 + $primeIconFontSize;
+}
+
 .p-icon-field-left.p-float-label > label {
     left: nth($inputPadding, 2) * 2 + $primeIconFontSize;
 }
