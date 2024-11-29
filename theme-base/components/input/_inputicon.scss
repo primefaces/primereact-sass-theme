@@ -4,12 +4,14 @@
     width: 100%;
 }
 
-.p-icon-field-left > .p-input-icon:first-of-type {
+.p-icon-field-left > .p-input-icon {
     left: nth($inputPadding, 2);
     color: $inputIconColor;
+    z-index: 1;
 }
 
-.p-icon-field-right > .p-input-icon:last-of-type  {
+.p-icon-field-right > .p-input-icon  {
     right: nth($inputPadding, 2);
     color: $inputIconColor;
+    z-index: 1;
 }
